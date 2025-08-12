@@ -26,7 +26,7 @@ Cane
 Cruel Dom
 Soft Dom
 
-
+## Other stuff
 Install Equal Milking if you want cowgirls to make more milk.
 Only research what you want to see.
 Cross training may get weird.
