@@ -24,6 +24,7 @@ Cane
 
 ## Adds Traits;
 Cruel Dom
+
 Soft Dom
 
 ## Other stuff
