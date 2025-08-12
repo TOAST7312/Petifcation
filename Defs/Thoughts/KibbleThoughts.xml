@@ -1,0 +1,64 @@
+<Defs>
+  
+
+  <ThoughtDef>
+    <defName>AteKibbleP</defName>
+    <showBubble>true</showBubble>
+    <icon>Things/Mote/ThoughtSymbol/Food</icon>
+    <durationDays>1</durationDays>
+    <nullifyingHediffs>
+      <li>HappySlaveP</li>
+    </nullifyingHediffs>
+    <nullifyingTraits>
+          <li>Masochist</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>ate dog food</label>
+        <description>I had to eat animal food. It's like I don't get to be human any more.</description>
+        <baseMoodEffect>-12</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>AteKibbleK</defName>
+    <showBubble>true</showBubble>
+    <icon>Things/Mote/ThoughtSymbol/Food</icon>
+    <durationDays>1</durationDays>
+    <nullifyingHediffs>
+      <li>HappySlaveK</li>
+    </nullifyingHediffs>
+    <nullifyingTraits>
+          <li>Masochist</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>ate cat food</label>
+        <description>I had to eat animal food. It's like I don't get to be human any more.</description>
+        <baseMoodEffect>-12</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>AteKibbleC</defName>
+    <showBubble>true</showBubble>
+    <icon>Things/Mote/ThoughtSymbol/Food</icon>
+    <durationDays>1</durationDays>
+    <nullifyingHediffs>
+      <li>HappySlaveC</li>
+    </nullifyingHediffs>
+    <nullifyingTraits>
+          <li>Masochist</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>ate hay</label>
+        <description>I had to eat animal food. It's like I don't get to be human any more.</description>
+        <baseMoodEffect>-12</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+</Defs>

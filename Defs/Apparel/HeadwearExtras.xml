@@ -1,0 +1,585 @@
+<Defs>
+
+  <ThingDef ParentName="CowboyHat">
+    <defName>Apparel_katears</defName>
+    <label>cat ears</label>
+    <description>A nice-looking set of cat ears. Improves kitten training.</description>
+    <possessionCount>1</possessionCount>
+    <graphicData>
+      <texPath>Apearal/Cat/CatEars/CatEarHat_north</texPath>
+      <drawSize>(0.9, 0.9)</drawSize>
+    </graphicData>
+    <costStuffCount>20</costStuffCount>
+    <uiIconScale>1.25</uiIconScale>
+    <statBases>
+      <WorkToMake>1800</WorkToMake>
+      <Mass>0.14</Mass>
+      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.10</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.40</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>0.8</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">0.02</SlaveSuppressionOffset>
+    </equippedStatOffsets>
+    <apparel>
+      <canBeDesiredForIdeo>true</canBeDesiredForIdeo>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <developmentalStageFilter>Adult</developmentalStageFilter>
+      <wornGraphicPath>Apearal/Cat/CatEars/CatEarHat</wornGraphicPath>
+    </apparel>
+        <comps>
+      <li Class="CompProperties_CauseHediff_Apparel">
+        <hediff>kittenears</hediff>
+        <part>Head</part>
+      </li>
+    </comps>
+    <tradeTags>
+      <li>BasicClothing</li>
+    </tradeTags>
+  </ThingDef>
+
+    <HediffDef>
+    <defName>kittenears</defName>
+    <label>cat ears</label>
+    <description>The cat ears reminds the pet of their place, while also making them super cute. :3</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <stages>
+      <li>
+        <statOffsets>
+          <SexFrequency>0.2</SexFrequency>
+          <Beauty>1</Beauty>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps>
+        <li Class="EBSGFramework.HediffCompProperties_GiveOtherHediffPeriodically">
+                <hediff>pet_kitty</hediff>
+                <severity>0.01</severity>
+                <validSeverities>0.5</validSeverities>
+                <multiplySeverityByParentSeverity>False</multiplySeverityByParentSeverity>
+                <interval>18000</interval>
+        </li>
+      <li Class="HediffCompProperties_RemoveIfApparelDropped" />
+    </comps>
+    <isBad>false</isBad>
+  </HediffDef>
+
+ <ThoughtDef>
+    <defName>kittenearsThought</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>kittenears</hediff>
+    <stackLimit>1</stackLimit>
+    <validWhileDespawned>true</validWhileDespawned>
+    <nullifyingTraits>
+      <li>Masochist</li>
+	  <li>Nymphomaniac</li>
+      <li>MasterDom</li>
+      <li>MasterDomC</li>
+      <li>Rapist</li>
+    </nullifyingTraits>
+    <nullifyingHediffs>
+      <li>HappySlaveK</li>
+    </nullifyingHediffs>
+    <stages>
+      <li>
+        <label>Cat Eats</label>
+        <description>I feel silly wearing these.</description>
+        <baseMoodEffect>-1</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+ <ThoughtDef>
+    <defName>kittenearsThoughtHorny</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>kittenears</hediff>
+    <stackLimit>1</stackLimit>
+    <validWhileDespawned>true</validWhileDespawned>
+	<requiredTraits>
+      <li>Masochist</li>
+	  <li>Nymphomaniac</li>
+	</requiredTraits>
+    <requiredHediffs>
+        <li>HappySlaveK</li>
+    </requiredHediffs>
+    <stages>
+      <li>
+        <label>Cute Ears</label>
+        <description>I look so cute in these!.</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+ <ThoughtDef>
+    <defName>kittenearsThoughtDom</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>kittenears</hediff>
+    <stackLimit>1</stackLimit>
+    <validWhileDespawned>true</validWhileDespawned>
+	<requiredTraits>
+      <li>MasterDom</li>
+      <li>Rapist</li>
+      <li>MasterDomC</li>
+	</requiredTraits>
+    <stages>
+      <li>
+        <label>Stupid Ears</label>
+        <description>I can't belieave I'm wearing these stupid things.</description>
+        <baseMoodEffect>-4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThingDef ParentName="HatMakeableBase">
+    <defName>Apparel_DogMask</defName>
+    <label>dog mask</label>
+    <description>A flexible latex mask worn over the face to give the wearer the apparence of a dog.dy.\n\n Improves puppy training.</description>
+    <possessionCount>1</possessionCount>
+    <graphicData>
+      <texPath>Apearal/Dog/DogMask/DogMask_east</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.8</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <WorkToMake>6000</WorkToMake>
+      <Mass>0.4</Mass>
+      <ArmorRating_Sharp>0.18</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+      <Insulation_Cold>1.5</Insulation_Cold>
+      <EquipDelay>0.8</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <ToxicEnvironmentResistance>0.1</ToxicEnvironmentResistance>
+      <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">0.05</SlaveSuppressionOffset>
+    </equippedStatOffsets>
+    <recipeMaker>
+      <researchPrerequisite>Machining</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedMask</unfinishedThingDef>
+      <recipeUsers Inherit="False">
+        <li>TableMachining</li>
+      </recipeUsers>
+      <displayPriority>215</displayPriority>
+    </recipeMaker>
+    <costList>
+      <Chemfuel>25</Chemfuel>
+    </costList>
+    <apparel>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <developmentalStageFilter>Adult</developmentalStageFilter>
+      <immuneToToxGasExposure>true</immuneToToxGasExposure>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Apearal/Dog/DogMask/DogMask</wornGraphicPath>
+      <tags>
+        <li>IndustrialBasic</li>
+      </tags>
+      <forceEyesVisibleForRotations>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+      </forceEyesVisibleForRotations>
+      <canBeDesiredForIdeo>true</canBeDesiredForIdeo>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+    </apparel>
+        <comps>
+      <li Class="CompProperties_CauseHediff_Apparel">
+        <hediff>doggymasked</hediff>
+        <part>Head</part>
+      </li>
+    </comps>
+  </ThingDef>
+
+    <HediffDef>
+    <defName>doggymasked</defName>
+    <label>masked</label>
+    <description>The dog mask reminds the pet of their place. May eventually cause a permanent shift in personality.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <stages>
+      <li>
+        <statOffsets>
+          <SexFrequency>0.1</SexFrequency>
+          <Vulnerability>0.1</Vulnerability>
+          <Beauty>1</Beauty>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps>
+        <li Class="EBSGFramework.HediffCompProperties_GiveOtherHediffPeriodically">
+                <hediff>pet_doggy</hediff>
+                <severity>0.01</severity>
+                <validSeverities>0.5</validSeverities>
+                <multiplySeverityByParentSeverity>False</multiplySeverityByParentSeverity>
+                <interval>18000</interval>
+        </li>
+      <li Class="HediffCompProperties_RemoveIfApparelDropped" />
+    </comps>
+    <isBad>false</isBad>
+  </HediffDef>
+
+ <ThoughtDef>
+    <defName>doggymaskedThought</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>doggymasked</hediff>
+    <stackLimit>1</stackLimit>
+    <validWhileDespawned>true</validWhileDespawned>
+    <nullifyingTraits>
+      <li>Masochist</li>
+	  <li>Nymphomaniac</li>
+      <li>MasterDom</li>
+      <li>MasterDomC</li>
+      <li>Rapist</li>
+    </nullifyingTraits>
+    <nullifyingHediffs>
+      <li>HappySlaveP</li>
+    </nullifyingHediffs>
+    <stages>
+      <li>
+        <label>Dog Mask</label>
+        <description>This is not comfortable!</description>
+        <baseMoodEffect>-3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+ <ThoughtDef>
+    <defName>doggymaskedThoughtHorny</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>doggymasked</hediff>
+    <stackLimit>1</stackLimit>
+    <validWhileDespawned>true</validWhileDespawned>
+	<requiredTraits>
+      <li>Masochist</li>
+	  <li>Nymphomaniac</li>
+	</requiredTraits>
+    <requiredHediffs>
+        <li>HappySlaveP</li>
+    </requiredHediffs>
+    <stages>
+      <li>
+        <label>Dog Mask</label>
+        <description>Do I look good master!!??!</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+ <ThoughtDef>
+    <defName>doggymaskedThoughtDom</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>doggymasked</hediff>
+    <stackLimit>1</stackLimit>
+    <validWhileDespawned>true</validWhileDespawned>
+	<requiredTraits>
+      <li>MasterDom</li>
+      <li>Rapist</li>
+      <li>MasterDomC</li>
+	</requiredTraits>
+    <stages>
+      <li>
+        <label>Stupid Mask</label>
+        <description>Get this off me... NOW!</description>
+        <baseMoodEffect>-10</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThingDef ParentName="HatMakeableBase">
+    <defName>Apparel_DollMask</defName>
+    <label>doll mask</label>
+    <description>A flexible latex mask worn over the face to block sight. Includes a tube inserted down the wearers throat, preventing speaking and eating normally.\n\n Improves doll training.</description>
+    <possessionCount>1</possessionCount>
+    <graphicData>
+      <texPath>Apearal/Doll/DollMaskIcon</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.8</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <WorkToMake>6000</WorkToMake>
+      <Mass>0.4</Mass>
+      <ArmorRating_Sharp>0.18</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+      <Insulation_Cold>1.5</Insulation_Cold>
+      <EquipDelay>3.8</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <ToxicEnvironmentResistance>0.1</ToxicEnvironmentResistance>
+      <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">0.15</SlaveSuppressionOffset>
+    </equippedStatOffsets>
+    <recipeMaker>
+      <researchPrerequisite>Machining</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedMask</unfinishedThingDef>
+      <recipeUsers Inherit="False">
+        <li>TableMachining</li>
+      </recipeUsers>
+      <displayPriority>215</displayPriority>
+    </recipeMaker>
+    <costList>
+      <Chemfuel>30</Chemfuel>
+    </costList>
+    <apparel>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <developmentalStageFilter>Adult</developmentalStageFilter>
+      <immuneToToxGasExposure>true</immuneToToxGasExposure>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Apearal/Doll/DollMask/DollMask</wornGraphicPath>
+      <canBeDesiredForIdeo>true</canBeDesiredForIdeo>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>IndustrialBasic</li>
+      </tags>
+    </apparel>
+        <comps>
+      <li Class="CompProperties_CauseHediff_Apparel">
+        <hediff>dollymasked</hediff>
+        <part>Head</part>
+      </li>
+    </comps>
+  </ThingDef>
+
+    <HediffDef>
+    <defName>dollymasked</defName>
+    <label>mask and feeding tube</label>
+    <description>The mask and feeding tube further remove the doll form their consciousness. May eventually cause a permanent shift in personality.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <stages>
+      <li>
+        <statOffsets>
+          <SexFrequency>0.1</SexFrequency>
+          <Vulnerability>0.1</Vulnerability>
+          <Beauty>1</Beauty>
+        </statOffsets>
+          <capMods>
+          <li>
+            <capacity>Sight</capacity>
+            <setMax>0</setMax>
+          </li>
+          <li>
+            <capacity>Hearing</capacity>
+            <postFactor>0.5</postFactor>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+    <comps>
+        <li Class="EBSGFramework.HediffCompProperties_GiveOtherHediffPeriodically">
+                <hediff>pet_doll</hediff>
+                <severity>0.01</severity>
+                <validSeverities>0.5</validSeverities>
+                <multiplySeverityByParentSeverity>False</multiplySeverityByParentSeverity>
+                <interval>18000</interval>
+        </li>
+      <li Class="HediffCompProperties_RemoveIfApparelDropped" />
+    </comps>
+    <isBad>false</isBad>
+  </HediffDef>
+
+ <ThoughtDef>
+    <defName>dollymaskedThought</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>dollymasked</hediff>
+    <stackLimit>1</stackLimit>
+    <validWhileDespawned>true</validWhileDespawned>
+    <nullifyingTraits>
+      <li>Masochist</li>
+	  <li>Nymphomaniac</li>
+      <li>MasterDom</li>
+      <li>MasterDomC</li>
+      <li>Rapist</li>
+    </nullifyingTraits>
+    <nullifyingHediffs>
+      <li>HappySlaveD</li>
+    </nullifyingHediffs>
+    <stages>
+      <li>
+        <label>Choking Mask</label>
+        <description>This thing is choking me!</description>
+        <baseMoodEffect>-10</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+ <ThoughtDef>
+    <defName>dollymaskedThoughtHorny</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>dollymasked</hediff>
+    <stackLimit>1</stackLimit>
+    <validWhileDespawned>true</validWhileDespawned>
+	<requiredTraits>
+      <li>Masochist</li>
+	  <li>Nymphomaniac</li>
+	</requiredTraits>
+    <requiredHediffs>
+        <li>HappySlaveD</li>
+    </requiredHediffs>
+    <stages>
+      <li>
+        <label>Feeding Mask</label>
+        <description>Everything I want to eat has to be forced down my throat. It shouldn't be so hot and yet it is.</description>
+        <baseMoodEffect>7</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+ <ThoughtDef>
+    <defName>dollymaskedThoughtDom</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>dollymasked</hediff>
+    <stackLimit>1</stackLimit>
+    <validWhileDespawned>true</validWhileDespawned>
+	<requiredTraits>
+      <li>MasterDom</li>
+      <li>Rapist</li>
+      <li>MasterDomC</li>
+	</requiredTraits>
+    <stages>
+      <li>
+        <label>Choking Mask</label>
+        <description>Get this off me NOW!</description>
+        <baseMoodEffect>-20</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThingDef ParentName="CowboyHat">
+    <defName>Apparel_cowears</defName>
+    <label>cow ears</label>
+    <description>A nice-looking set of cow ears. Improves cow training.</description>
+    <possessionCount>1</possessionCount>
+    <graphicData>
+      <texPath>Apearal/Cow/CowEars/CowEars_north</texPath>
+      <drawSize>(0.9, 0.9)</drawSize>
+    </graphicData>
+    <costStuffCount>20</costStuffCount>
+    <uiIconScale>1.25</uiIconScale>
+    <statBases>
+      <WorkToMake>1800</WorkToMake>
+      <Mass>0.14</Mass>
+      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.10</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.40</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>0.8</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">0.02</SlaveSuppressionOffset>
+    </equippedStatOffsets>
+    <apparel>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <developmentalStageFilter>Adult</developmentalStageFilter>
+      <wornGraphicPath>Apearal/Cow/CowEars/CowEars</wornGraphicPath>
+    </apparel>
+        <comps>
+      <li Class="CompProperties_CauseHediff_Apparel">
+        <hediff>cowears</hediff>
+        <part>Head</part>
+      </li>
+    </comps>
+    <tradeTags>
+      <li>BasicClothing</li>
+    </tradeTags>
+  </ThingDef>
+
+    <HediffDef>
+    <defName>cowears</defName>
+    <label>cow ears</label>
+    <description>The cow ears make the dumb cow look some how even dumber. May eventually cause a permanent shift in personality.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <stages>
+      <li>
+        <statOffsets>
+          <Vulnerability>0.3</Vulnerability>
+          <Beauty>1</Beauty>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps>
+        <li Class="EBSGFramework.HediffCompProperties_GiveOtherHediffPeriodically">
+                <hediff>pet_cow</hediff>
+                <severity>0.01</severity>
+                <validSeverities>0.5</validSeverities>
+                <multiplySeverityByParentSeverity>False</multiplySeverityByParentSeverity>
+                <interval>18000</interval>
+        </li>
+      <li Class="HediffCompProperties_RemoveIfApparelDropped" />
+    </comps>
+    <isBad>false</isBad>
+  </HediffDef>
+
+ <ThoughtDef>
+    <defName>cowearsThought</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>cowears</hediff>
+    <stackLimit>1</stackLimit>
+    <validWhileDespawned>true</validWhileDespawned>
+    <nullifyingTraits>
+      <li>Masochist</li>
+	  <li>Nymphomaniac</li>
+      <li>MasterDom</li>
+      <li>MasterDomC</li>
+      <li>Rapist</li>
+    </nullifyingTraits>
+    <nullifyingHediffs>
+      <li>HappySlaveD</li>
+    </nullifyingHediffs>
+    <stages>
+      <li>
+        <label>Dumb Ears</label>
+        <description>I look so dumb in these...</description>
+        <baseMoodEffect>-4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+ <ThoughtDef>
+    <defName>cowearsThoughtHorny</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>cowears</hediff>
+    <stackLimit>1</stackLimit>
+    <validWhileDespawned>true</validWhileDespawned>
+	<requiredTraits>
+      <li>Masochist</li>
+	  <li>Nymphomaniac</li>
+	</requiredTraits>
+    <requiredHediffs>
+        <li>HappySlaveD</li>
+    </requiredHediffs>
+    <stages>
+      <li>
+        <label>Cow Ears</label>
+        <description>I hope I get breed like cattle now.</description>
+        <baseMoodEffect>3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+ <ThoughtDef>
+    <defName>cowearsThoughtDom</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>cowears</hediff>
+    <stackLimit>1</stackLimit>
+    <validWhileDespawned>true</validWhileDespawned>
+	<requiredTraits>
+      <li>MasterDom</li>
+      <li>Rapist</li>
+      <li>MasterDomC</li>
+	</requiredTraits>
+    <stages>
+      <li>
+        <label>Not a Cow</label>
+        <description>I am not a dumb cow...</description>
+        <baseMoodEffect>-12</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+</Defs>
