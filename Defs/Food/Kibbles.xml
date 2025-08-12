@@ -188,6 +188,9 @@
       <researchPrerequisites>
           <li>PRPuppy</li>
       </researchPrerequisites>
+      <recipeUsers Inherit="False">
+        <li>TableButcher</li>
+      </recipeUsers>
   </RecipeDef>
 
   <RecipeDef>
@@ -251,6 +254,9 @@
       <researchPrerequisites>
           <li>PRKitten</li>
       </researchPrerequisites>
+      <recipeUsers Inherit="False">
+        <li>TableButcher</li>
+      </recipeUsers>
   </RecipeDef>
 
   <RecipeDef>
@@ -311,5 +317,8 @@
       <researchPrerequisites>
           <li>PRCow</li>
       </researchPrerequisites>
+      <recipeUsers Inherit="False">
+        <li>TableButcher</li>
+      </recipeUsers>
   </RecipeDef>
 </Defs>
