@@ -1,0 +1,95 @@
+<Defs>
+
+        <HediffDef>
+    <defName>seeingpuppy</defName>
+    <label>seeing puppy</label>
+    <description>This puppy is happy and enjoys it's new life. Nearby masters will be happy to see it.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <minSeverity>0.2</minSeverity>
+    <maxSeverity>1</maxSeverity>
+    <stages>
+      <li>
+        <becomeVisible>false</becomeVisible>
+        <statOffsets>
+          <SexFrequency>0.2</SexFrequency>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <showRemainingTime>false</showRemainingTime>
+      </li>
+    </comps>
+    <isBad>false</isBad>
+  </HediffDef>
+
+        <HediffDef>
+    <defName>seeingcat</defName>
+    <label>seeing kitty</label>
+    <description>This puppy is happy and enjoys it's new life. Nearby masters will be happy to see it.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <minSeverity>0.2</minSeverity>
+    <maxSeverity>1</maxSeverity>
+    <stages>
+      <li>
+        <becomeVisible>false</becomeVisible>
+        <statOffsets>
+          <SexFrequency>0.4</SexFrequency>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <showRemainingTime>false</showRemainingTime>
+      </li>
+    </comps>
+    <isBad>false</isBad>
+  </HediffDef>
+
+        <HediffDef>
+    <defName>seeingcow</defName>
+    <label>seeing cow</label>
+    <description>This puppy is happy and enjoys it's new life. Nearby masters will be happy to see it.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <minSeverity>0.2</minSeverity>
+    <maxSeverity>1</maxSeverity>
+    <stages>
+      <li>
+        <becomeVisible>false</becomeVisible>
+        <statOffsets>
+          <SexFrequency>0.2</SexFrequency>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <showRemainingTime>false</showRemainingTime>
+      </li>
+    </comps>
+    <isBad>false</isBad>
+  </HediffDef>
+
+        <HediffDef>
+    <defName>seeingdoll</defName>
+    <label>seeing doll</label>
+    <description>This puppy is happy and enjoys it's new life. Nearby masters will be happy to see it.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <minSeverity>0.2</minSeverity>
+    <maxSeverity>1</maxSeverity>
+    <stages>
+      <li>
+        <becomeVisible>false</becomeVisible>
+        <statOffsets>
+          <SexFrequency>0.2</SexFrequency>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <showRemainingTime>false</showRemainingTime>
+      </li>
+    </comps>
+    <isBad>false</isBad>
+  </HediffDef>
+
+</Defs>

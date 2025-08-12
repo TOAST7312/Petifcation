@@ -1,0 +1,732 @@
+ <Defs>
+ 
+ <ThoughtDef>
+    <defName>PupThought</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>pet_doggy</hediff>
+    <stackLimit>1</stackLimit>
+    <validWhileDespawned>true</validWhileDespawned>
+    <nullifyingTraits>
+      <li>Masochist</li>
+	  <li>Nymphomaniac</li>
+      <li>Zoophile</li>
+      <li>MasterDom</li>
+      <li>MasterDomC</li>
+      <li>Rapist</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>Pet Shock</label>
+        <description>Wait you want me to do what?</description>
+        <baseMoodEffect>-2</baseMoodEffect>
+      </li>
+      <li>
+        <label>Pet Anger</label>
+        <description>Fuck you people, you are crazy I am not doing this!</description>
+        <baseMoodEffect>-15</baseMoodEffect>
+      </li>
+      <li>
+        <label>Pet Shock</label>
+        <description>This isn't happening... None of this is real...</description>
+        <baseMoodEffect>-10</baseMoodEffect>
+      </li>
+      <li>
+        <label>Pet Sadness</label>
+        <description>But I don't want this... They can't keep making me. Can they?</description>
+        <baseMoodEffect>-6</baseMoodEffect>
+      </li>
+      <li>
+        <label>Pet depression</label>
+        <description>There is nothing to do but give up...</description>
+        <baseMoodEffect>-2</baseMoodEffect>
+      </li>
+      <li>
+        <label>Pet Learning</label>
+        <description>It's easier to just play along.</description>
+        <baseMoodEffect>-1</baseMoodEffect>
+      </li>
+      <li>
+        <label>Puppy Learning</label>
+        <description>If I make them happy, maybe they will keep petting me!</description>
+        <baseMoodEffect>3</baseMoodEffect>
+      </li>
+      <li>
+        <label>Puppy Learning</label>
+        <description>Belly rubs are nice! Why was I ever against this?</description>
+        <baseMoodEffect>8</baseMoodEffect>
+      </li>
+      <li>
+        <label>Puppy</label>
+        <description>WOOF! WOOF!</description>
+        <baseMoodEffect>14</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+ <ThoughtDef>
+    <defName>PupThoughtHorny</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>pet_doggy</hediff>
+    <stackLimit>1</stackLimit>
+    <validWhileDespawned>true</validWhileDespawned>
+	<requiredTraits>
+      <li>Masochist</li>
+	  <li>Nymphomaniac</li>
+      <li>Zoophile</li>
+	</requiredTraits>
+    <stages>
+      <li>
+        <label>Pet Shock</label>
+        <description>Wait you want me to do what?</description>
+        <baseMoodEffect>-2</baseMoodEffect>
+      </li>
+      <li>
+        <label>Pet Braty</label>
+        <description>Ha ha! You're gonna have to make me do it. :3</description>
+        <baseMoodEffect>6</baseMoodEffect>
+      </li>
+      <li>
+        <label>Pet Slightly Braty</label>
+        <description>I guess I can behave a little... sometimes.</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+      <li>
+        <label>Pet Becoming Tame</label>
+        <description>Ok ok. I'll try and be good :3</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+      <li>
+        <label>Pet Tamed</label>
+        <description>I'll be good now, really I promise!</description>
+        <baseMoodEffect>1</baseMoodEffect>
+      </li>
+      <li>
+        <label>Pet Learning</label>
+        <description>Yes treat me like your little pet!</description>
+        <baseMoodEffect>3</baseMoodEffect>
+      </li>
+      <li>
+        <label>Puppy Learning</label>
+        <description>Yes treat me like a dirty dog! I deserve it!</description>
+        <baseMoodEffect>6</baseMoodEffect>
+      </li>
+      <li>
+        <label>Puppy Learning</label>
+        <description>Belly rubs are fine, but can we play more naughty games?</description>
+        <baseMoodEffect>12</baseMoodEffect>
+      </li>
+      <li>
+        <label>Horny Puppy</label>
+        <description>WOOF! WOOF! ;3</description>
+        <baseMoodEffect>18</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+ <ThoughtDef>
+    <defName>PupThoughtDom</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>pet_doggy</hediff>
+    <stackLimit>1</stackLimit>
+    <validWhileDespawned>true</validWhileDespawned>
+	<requiredTraits>
+      <li>MasterDom</li>
+      <li>MasterDomC</li>
+      <li>Rapist</li>
+	</requiredTraits>
+    <stages>
+      <li>
+        <label>NO</label>
+        <description>Not happening, fuck off.</description>
+        <baseMoodEffect>-20</baseMoodEffect>
+      </li>
+      <li>
+        <label>No NO!</label>
+        <description>I'm a top! This isn't how this works!</description>
+        <baseMoodEffect>-20</baseMoodEffect>
+      </li>
+      <li>
+        <label>Fuck You</label>
+        <description>Fuck you... If I just don't do anything I win!</description>
+        <baseMoodEffect>-18</baseMoodEffect>
+      </li>
+      <li>
+        <label>Stop...</label>
+        <description>This will never work... why are you doing this?</description>
+        <baseMoodEffect>-15</baseMoodEffect>
+      </li>
+      <li>
+        <label>I Don't Want this</label>
+        <description>Someday... someday I'll get my revenge!</description>
+        <baseMoodEffect>-12</baseMoodEffect>
+      </li>
+      <li>
+        <label>I Don't Want this</label>
+        <description>Someday... someday I'll get my revenge!</description>
+        <baseMoodEffect>-12</baseMoodEffect>
+      </li>
+      <li>
+        <label>I Don't Want this</label>
+        <description>Someday... someday I'll get my revenge!</description>
+        <baseMoodEffect>-12</baseMoodEffect>
+      </li>
+      <li>
+        <label>I Don't Want this</label>
+        <description>Someday... someday I'll get my revenge!</description>
+        <baseMoodEffect>-10</baseMoodEffect>
+      </li>
+      <li>
+        <label>I Don't Want this</label>
+        <description>Someday... someday I'll get my revenge!</description>
+        <baseMoodEffect>-8</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+ <ThoughtDef>
+    <defName>KatThought</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>pet_kitty</hediff>
+    <stackLimit>1</stackLimit>
+    <validWhileDespawned>true</validWhileDespawned>
+    <nullifyingTraits>
+      <li>Masochist</li>
+	  <li>Nymphomaniac</li>
+      <li>Zoophile</li>
+      <li>MasterDom</li>
+      <li>MasterDomC</li>
+      <li>Rapist</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>Pet Shock</label>
+        <description>Wait you want me to do what?</description>
+        <baseMoodEffect>-2</baseMoodEffect>
+      </li>
+      <li>
+        <label>Pet Anger</label>
+        <description>Fuck you people, you are crazy I am not doing this!</description>
+        <baseMoodEffect>-15</baseMoodEffect>
+      </li>
+      <li>
+        <label>Pet Shock</label>
+        <description>This isn't happening... None of this is real...</description>
+        <baseMoodEffect>-10</baseMoodEffect>
+      </li>
+      <li>
+        <label>Pet Sadness</label>
+        <description>But I don't want this... They can't keep making me. Can they?</description>
+        <baseMoodEffect>-6</baseMoodEffect>
+      </li>
+      <li>
+        <label>Pet depression</label>
+        <description>There is nothing to do but give up...</description>
+        <baseMoodEffect>-2</baseMoodEffect>
+      </li>
+      <li>
+        <label>Pet Learning</label>
+        <description>It's easier to just play along.</description>
+        <baseMoodEffect>-1</baseMoodEffect>
+      </li>
+      <li>
+        <label>Kitty Learning</label>
+        <description>If I make them happy, maybe they will keep brushing me!</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+      <li>
+        <label>Kitty Learning</label>
+        <description>You are all actually so nice... Just don't leave me!</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+      <li>
+        <label>Kitty</label>
+        <description>Purrrr...</description>
+        <baseMoodEffect>8</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+ <ThoughtDef>
+    <defName>KatThoughtHorny</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>pet_kitty</hediff>
+    <stackLimit>1</stackLimit>
+    <validWhileDespawned>true</validWhileDespawned>
+	<requiredTraits>
+      <li>Masochist</li>
+	  <li>Nymphomaniac</li>
+      <li>Zoophile</li>
+	</requiredTraits>
+    <stages>
+      <li>
+        <label>Pet Shock</label>
+        <description>Wait you want me to do what?</description>
+        <baseMoodEffect>-2</baseMoodEffect>
+      </li>
+      <li>
+        <label>Pet Braty</label>
+        <description>Ha ha! You're gonna have to make me do it. :3</description>
+        <baseMoodEffect>6</baseMoodEffect>
+      </li>
+      <li>
+        <label>Pet Slightly Braty</label>
+        <description>I guess I can behave a little... sometimes.</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+      <li>
+        <label>Pet Becoming Tame</label>
+        <description>Ok ok. I'll try and be good :3</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+      <li>
+        <label>Pet Tamed</label>
+        <description>I'll be good now, really I promise!</description>
+        <baseMoodEffect>1</baseMoodEffect>
+      </li>
+      <li>
+        <label>Pet Learning</label>
+        <description>Yes treat me like your little pet!</description>
+        <baseMoodEffect>3</baseMoodEffect>
+      </li>
+      <li>
+        <label>Kitty Learning</label>
+        <description>If I nibble your ear will you fuck me again?</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+      <li>
+        <label>Kitty Learning</label>
+        <description>I should have lived like this all along... I just rub against someone leg everytime I'm horny. No talking required!</description>
+        <baseMoodEffect>7</baseMoodEffect>
+      </li>
+      <li>
+        <label>Horny Kitty</label>
+        <description>Purrrr... ;3</description>
+        <baseMoodEffect>12</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+ <ThoughtDef>
+    <defName>KatThoughtDom</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>pet_kitty</hediff>
+    <stackLimit>1</stackLimit>
+    <validWhileDespawned>true</validWhileDespawned>
+	<requiredTraits>
+      <li>MasterDom</li>
+      <li>MasterDomC</li>
+      <li>Rapist</li>
+	</requiredTraits>
+    <stages>
+      <li>
+        <label>NO</label>
+        <description>Not happening, fuck off.</description>
+        <baseMoodEffect>-20</baseMoodEffect>
+      </li>
+      <li>
+        <label>No NO!</label>
+        <description>I'm a top! This isn't how this works!</description>
+        <baseMoodEffect>-20</baseMoodEffect>
+      </li>
+      <li>
+        <label>Fuck You</label>
+        <description>Fuck you... If I just don't do anything I win!</description>
+        <baseMoodEffect>-18</baseMoodEffect>
+      </li>
+      <li>
+        <label>Stop...</label>
+        <description>This will never work... why are you doing this?</description>
+        <baseMoodEffect>-15</baseMoodEffect>
+      </li>
+      <li>
+        <label>I Don't Want this</label>
+        <description>Someday... someday I'll get my revenge!</description>
+        <baseMoodEffect>-12</baseMoodEffect>
+      </li>
+      <li>
+        <label>I Don't Want this</label>
+        <description>Someday... someday I'll get my revenge!</description>
+        <baseMoodEffect>-12</baseMoodEffect>
+      </li>
+      <li>
+        <label>I Don't Want this</label>
+        <description>Someday... someday I'll get my revenge!</description>
+        <baseMoodEffect>-12</baseMoodEffect>
+      </li>
+      <li>
+        <label>I Don't Want this</label>
+        <description>Someday... someday I'll get my revenge!</description>
+        <baseMoodEffect>-10</baseMoodEffect>
+      </li>
+      <li>
+        <label>I Don't Want this</label>
+        <description>Someday... someday I'll get my revenge!</description>
+        <baseMoodEffect>-8</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+ <ThoughtDef>
+    <defName>CowThought</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>pet_cow</hediff>
+    <stackLimit>1</stackLimit>
+    <validWhileDespawned>true</validWhileDespawned>
+    <nullifyingTraits>
+      <li>Masochist</li>
+	  <li>Nymphomaniac</li>
+      <li>Zoophile</li>
+      <li>MasterDom</li>
+      <li>MasterDomC</li>
+      <li>Rapist</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>Animal Shock</label>
+        <description>Wait you want me to do what?</description>
+        <baseMoodEffect>-2</baseMoodEffect>
+      </li>
+      <li>
+        <label>Animal Anger</label>
+        <description>Fuck you people, you are crazy I am not eating hay!</description>
+        <baseMoodEffect>-15</baseMoodEffect>
+      </li>
+      <li>
+        <label>Animal Shock</label>
+        <description>This isn't happening... None of this is real...</description>
+        <baseMoodEffect>-10</baseMoodEffect>
+      </li>
+      <li>
+        <label>Animal Sadness</label>
+        <description>But I don't want this... They can't keep making me. Can they?</description>
+        <baseMoodEffect>-6</baseMoodEffect>
+      </li>
+      <li>
+        <label>Animal depression</label>
+        <description>There is nothing to do but give up and let them milk me...</description>
+        <baseMoodEffect>-2</baseMoodEffect>
+      </li>
+      <li>
+        <label>Animal Learning</label>
+        <description>It's easier to just play along.</description>
+        <baseMoodEffect>-1</baseMoodEffect>
+      </li>
+      <li>
+        <label>Cow Learning</label>
+        <description>The hay is actually pretty good once your used to it.</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+      <li>
+        <label>Cow Learning</label>
+        <description>God... Getting milked feels really good. I'm getting wet again just thinking about it.</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+      <li>
+        <label>Dumb Cow</label>
+        <description>Moooo!</description>
+        <baseMoodEffect>50</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+ <ThoughtDef>
+    <defName>CowThoughtHorny</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>pet_cow</hediff>
+    <stackLimit>1</stackLimit>
+    <validWhileDespawned>true</validWhileDespawned>
+	<requiredTraits>
+      <li>Masochist</li>
+	  <li>Nymphomaniac</li>
+      <li>Zoophile</li>
+	</requiredTraits>
+    <stages>
+      <li>
+        <label>Pet Shock</label>
+        <description>Wait you want me to do what?</description>
+        <baseMoodEffect>-2</baseMoodEffect>
+      </li>
+      <li>
+        <label>Animal Braty</label>
+        <description>Ha ha! You're gonna have to make me do it. :3</description>
+        <baseMoodEffect>6</baseMoodEffect>
+      </li>
+      <li>
+        <label>Animal Slightly Braty</label>
+        <description>I guess I can behave a little... sometimes.</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+      <li>
+        <label>Animal Becoming Tame</label>
+        <description>Ok ok. I'll try and be good if you keep milking me. :3</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+      <li>
+        <label>Animal Tamed</label>
+        <description>I'll be good now, really I promise!</description>
+        <baseMoodEffect>1</baseMoodEffect>
+      </li>
+      <li>
+        <label>Animal Learning</label>
+        <description>Yes treat me like a filithy animal!</description>
+        <baseMoodEffect>3</baseMoodEffect>
+      </li>
+      <li>
+        <label>Cow Learning</label>
+        <description>I'll make lots of milk for you! I'm trying hard see!</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+      <li>
+        <label>Cow Learning</label>
+        <description>It's like heaven, all I do is stand around and get used...</description>
+        <baseMoodEffect>7</baseMoodEffect>
+      </li>
+      <li>
+        <label>Dumb Horny Cow</label>
+        <description>Moo!... ;3</description>
+        <baseMoodEffect>70</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+ <ThoughtDef>
+    <defName>CowThoughtDom</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>pet_cow</hediff>
+    <stackLimit>1</stackLimit>
+    <validWhileDespawned>true</validWhileDespawned>
+	<requiredTraits>
+      <li>MasterDom</li>
+      <li>MasterDomC</li>
+      <li>Rapist</li>
+	</requiredTraits>
+    <stages>
+      <li>
+        <label>NO</label>
+        <description>Not happening, fuck off.</description>
+        <baseMoodEffect>-20</baseMoodEffect>
+      </li>
+      <li>
+        <label>No NO!</label>
+        <description>I'm a top! This isn't how this works!</description>
+        <baseMoodEffect>-20</baseMoodEffect>
+      </li>
+      <li>
+        <label>Fuck You</label>
+        <description>Fuck you... If I just don't do anything I win!</description>
+        <baseMoodEffect>-18</baseMoodEffect>
+      </li>
+      <li>
+        <label>Stop...</label>
+        <description>This will never work... why are you doing this?</description>
+        <baseMoodEffect>-15</baseMoodEffect>
+      </li>
+      <li>
+        <label>I Don't Want this</label>
+        <description>Someday... someday I'll get my revenge!</description>
+        <baseMoodEffect>-12</baseMoodEffect>
+      </li>
+      <li>
+        <label>I Don't Want this</label>
+        <description>Someday... someday I'll get my revenge!</description>
+        <baseMoodEffect>-12</baseMoodEffect>
+      </li>
+      <li>
+        <label>I Don't Want this</label>
+        <description>Someday... someday I'll get my revenge!</description>
+        <baseMoodEffect>-12</baseMoodEffect>
+      </li>
+      <li>
+        <label>I Don't Want this</label>
+        <description>Someday... someday I'll get my revenge!</description>
+        <baseMoodEffect>-10</baseMoodEffect>
+      </li>
+      <li>
+        <label>I Don't Want this</label>
+        <description>Someday... someday I'll get my revenge!</description>
+        <baseMoodEffect>-4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+ <ThoughtDef>
+    <defName>DollThought</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>pet_doll</hediff>
+    <stackLimit>1</stackLimit>
+    <validWhileDespawned>true</validWhileDespawned>
+    <nullifyingTraits>
+      <li>Masochist</li>
+	  <li>Nymphomaniac</li>
+      <li>MasterDom</li>
+      <li>MasterDomC</li>
+      <li>Rapist</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>Object Shock</label>
+        <description>Wait you want me to do what?</description>
+        <baseMoodEffect>-2</baseMoodEffect>
+      </li>
+      <li>
+        <label>Object Anger</label>
+        <description>Fuck you people! You can't do this to me! I'm a person!</description>
+        <baseMoodEffect>-20</baseMoodEffect>
+      </li>
+      <li>
+        <label>Object Shock</label>
+        <description>This isn't happening... None of this is real... Just make it stop...</description>
+        <baseMoodEffect>-15</baseMoodEffect>
+      </li>
+      <li>
+        <label>Object Sadness</label>
+        <description>Please just stop... please I can't take this...</description>
+        <baseMoodEffect>-10</baseMoodEffect>
+      </li>
+      <li>
+        <label>Object depression</label>
+        <description>*weak sobs*</description>
+        <baseMoodEffect>-10</baseMoodEffect>
+      </li>
+      <li>
+        <label>Object Learning</label>
+        <description>I'm trying not to cry! I just can't!</description>
+        <baseMoodEffect>-8</baseMoodEffect>
+      </li>
+      <li>
+        <label>Doll Learning</label>
+        <description>See I'm doing better! Just hit me softer please! I'll do anything!</description>
+        <baseMoodEffect>-6</baseMoodEffect>
+      </li>
+      <li>
+        <label>Doll Nearly Broken</label>
+        <description>I... I think... I don't know...</description>
+        <baseMoodEffect>-3</baseMoodEffect>
+      </li>
+      <li>
+        <label>Lifeless Doll</label>
+        <description>...</description>
+        <baseMoodEffect>100</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+ <ThoughtDef>
+    <defName>DollThoughtHorny</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>pet_doll</hediff>
+    <stackLimit>1</stackLimit>
+    <validWhileDespawned>true</validWhileDespawned>
+	<requiredTraits>
+      <li>Masochist</li>
+	  <li>Nymphomaniac</li>
+	</requiredTraits>
+    <stages>
+      <li>
+        <label>Object Shock</label>
+        <description>Wait you want me to do what?</description>
+        <baseMoodEffect>-2</baseMoodEffect>
+      </li>
+      <li>
+        <label>Object Braty</label>
+        <description>When I disobay you hurt me more? Intresting...</description>
+        <baseMoodEffect>8</baseMoodEffect>
+      </li>
+      <li>
+        <label>Object Braty</label>
+        <description>Ohhh... yeessss, whatever you want!</description>
+        <baseMoodEffect>10</baseMoodEffect>
+      </li>
+      <li>
+        <label>Object resistance</label>
+        <description>I don't know... I kinda like making you hit me :3</description>
+        <baseMoodEffect>12</baseMoodEffect>
+      </li>
+      <li>
+        <label>Object Trying</label>
+        <description>Fuck! I'll try harder, just please let me cum!</description>
+        <baseMoodEffect>-10</baseMoodEffect>
+      </li>
+      <li>
+        <label>Object Learning</label>
+        <description>Ok your right... This way is better, I'll obey!</description>
+        <baseMoodEffect>12</baseMoodEffect>
+      </li>
+      <li>
+        <label>Doll Learning</label>
+        <description>I can take it! Give me more please, please! All of it! Everything!</description>
+        <baseMoodEffect>12</baseMoodEffect>
+      </li>
+      <li>
+        <label>Doll Nearly Broken</label>
+        <description>I... I want... I want more... make me cum please...</description>
+        <baseMoodEffect>23</baseMoodEffect>
+      </li>
+      <li>
+        <label>Sex Crazy Fuck Toy</label>
+        <description>Mmhhh...</description>
+        <baseMoodEffect>200</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+ <ThoughtDef>
+    <defName>DollThoughtDom</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>pet_doll</hediff>
+    <stackLimit>1</stackLimit>
+    <validWhileDespawned>true</validWhileDespawned>
+	<requiredTraits>
+      <li>MasterDom</li>
+      <li>MasterDomC</li>
+      <li>Rapist</li>
+	</requiredTraits>
+    <stages>
+      <li>
+        <label>NO</label>
+        <description>Not happening, fuck off.</description>
+        <baseMoodEffect>-50</baseMoodEffect>
+      </li>
+      <li>
+        <label>No NO!</label>
+        <description>I'm a top! This isn't how this works!</description>
+        <baseMoodEffect>-50</baseMoodEffect>
+      </li>
+      <li>
+        <label>Fuck You</label>
+        <description>Fuck you... If I just don't do anything I win!</description>
+        <baseMoodEffect>-40</baseMoodEffect>
+      </li>
+      <li>
+        <label>Stop...</label>
+        <description>This will never work... why are you doing this?</description>
+        <baseMoodEffect>-35</baseMoodEffect>
+      </li>
+      <li>
+        <label>I Don't Want this</label>
+        <description>Someday... someday I'll get my revenge!</description>
+        <baseMoodEffect>-25</baseMoodEffect>
+      </li>
+      <li>
+        <label>I Don't Want this</label>
+        <description>Someday... someday I'll get my revenge!</description>
+        <baseMoodEffect>-25</baseMoodEffect>
+      </li>
+      <li>
+        <label>I Don't Want this</label>
+        <description>Someday... someday I'll get my revenge!</description>
+        <baseMoodEffect>-16</baseMoodEffect>
+      </li>
+      <li>
+        <label>I Don't Want this</label>
+        <description>Someday... someday I'll get my revenge!</description>
+        <baseMoodEffect>-10</baseMoodEffect>
+      </li>
+      <li>
+        <label>resentful doll</label>
+        <description>...</description>
+        <baseMoodEffect>50</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+</Defs>
