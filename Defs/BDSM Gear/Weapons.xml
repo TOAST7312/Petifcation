@@ -147,7 +147,7 @@
       <ThingDef ParentName="BaseMeleeWeapon_Blunt">
     <defName>BDSM_DollWhip</defName>
     <label>whip</label>
-    <description>A light whip used for breaking sex dolls. (increases doll training).</description>
+    <description>A whip used for breaking sex dolls. (increases doll training).</description>
     <graphicData>
       <texPath>Weapons/Whip</texPath>
       <graphicClass>Graphic_Single</graphicClass>

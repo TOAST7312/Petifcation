@@ -10,7 +10,7 @@
     <degreeDatas>
       <li>
         <label>Soft Dominant</label>
-        <description>{PAWN_nameDef} likes making others serve him... in a variety of ways.</description>
+        <description>{PAWN_nameDef} likes making others serve them... in a variety of ways.</description>
         <skillGains>
           <Social>4</Social>
         </skillGains>
@@ -36,7 +36,7 @@
     <degreeDatas>
       <li>
         <label>Cruel Dominant</label>
-        <description>{PAWN_nameDef} enjoys violently forcing others serve him... in a variety of cruel ways.</description>
+        <description>{PAWN_nameDef} enjoys violently forcing others serve them... in a variety of cruel ways.</description>
         <skillGains>
           <Social>6</Social>
           <Melee>6</Melee>

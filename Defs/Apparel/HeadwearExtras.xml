@@ -37,6 +37,9 @@
     <tradeTags>
       <li>BasicClothing</li>
     </tradeTags>
+      <researchPrerequisites>
+          <li>PRKitten</li>
+      </researchPrerequisites>
   </ThingDef>
 
     <HediffDef>
@@ -193,6 +196,75 @@
         <part>Head</part>
       </li>
     </comps>
+        <researchPrerequisites>
+          <li>PRPuppy</li>
+      </researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="HatMakeableBase">
+    <defName>Apparel_DogMaskF</defName>
+    <label>dog mask F</label>
+    <description>A flexible latex mask worn over the face to give the wearer the apparence of a dog.\n\n Improves puppy training.</description>
+    <possessionCount>1</possessionCount>
+    <graphicData>
+      <texPath>Apearal/Dog/DogMaskF/DogMaskF_east</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.8</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <WorkToMake>6000</WorkToMake>
+      <Mass>0.4</Mass>
+      <ArmorRating_Sharp>0.18</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+      <Insulation_Cold>1.5</Insulation_Cold>
+      <EquipDelay>0.8</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <ToxicEnvironmentResistance>0.1</ToxicEnvironmentResistance>
+      <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">0.05</SlaveSuppressionOffset>
+    </equippedStatOffsets>
+    <recipeMaker>
+      <researchPrerequisite>Machining</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedMask</unfinishedThingDef>
+      <recipeUsers Inherit="False">
+        <li>TableMachining</li>
+      </recipeUsers>
+      <displayPriority>215</displayPriority>
+    </recipeMaker>
+    <costList>
+      <Chemfuel>25</Chemfuel>
+    </costList>
+    <apparel>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <developmentalStageFilter>Adult</developmentalStageFilter>
+      <immuneToToxGasExposure>true</immuneToToxGasExposure>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Apearal/Dog/DogMaskF/DogMaskF</wornGraphicPath>
+      <tags>
+        <li>IndustrialBasic</li>
+      </tags>
+      <forceEyesVisibleForRotations>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+      </forceEyesVisibleForRotations>
+      <canBeDesiredForIdeo>true</canBeDesiredForIdeo>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+    </apparel>
+        <comps>
+      <li Class="CompProperties_CauseHediff_Apparel">
+        <hediff>doggymasked</hediff>
+        <part>Head</part>
+      </li>
+    </comps>
+        <researchPrerequisites>
+          <li>PRPuppy</li>
+      </researchPrerequisites>
   </ThingDef>
 
     <HediffDef>
@@ -221,6 +293,8 @@
     </comps>
     <isBad>false</isBad>
   </HediffDef>
+
+
 
  <ThoughtDef>
     <defName>doggymaskedThought</defName>
@@ -295,7 +369,7 @@
     <description>A flexible latex mask worn over the face to block sight. Includes a tube inserted down the wearers throat, preventing speaking and eating normally.\n\n Improves doll training.</description>
     <possessionCount>1</possessionCount>
     <graphicData>
-      <texPath>Apearal/Doll/DollMaskIcon</texPath>
+      <texPath>Apearal/Doll/DollMask/DollMask_south</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>0.8</drawSize>
     </graphicData>
@@ -345,6 +419,9 @@
         <part>Head</part>
       </li>
     </comps>
+        <researchPrerequisites>
+          <li>PRDoll</li>
+      </researchPrerequisites>
   </ThingDef>
 
     <HediffDef>
@@ -487,6 +564,9 @@
     <tradeTags>
       <li>BasicClothing</li>
     </tradeTags>
+        <researchPrerequisites>
+          <li>PRCow</li>
+      </researchPrerequisites>
   </ThingDef>
 
     <HediffDef>
