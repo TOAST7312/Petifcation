@@ -200,7 +200,7 @@
     <label>catification training</label>
     <description>Catification training renders a pawn sassy, sweet, and fuckable. Can be renforced with diet, apparel, or implants. Will fade with time if not reinforced. Primary stat is Sex Frequency, not as submisive or pain tolerant as other pets.</description>
     <hediffClass>HediffWithComps</hediffClass>
-    <maxSeverity>1.0</maxSeverity>
+    <maxSeverity>1.5</maxSeverity>
     <isBad>false</isBad>
     <tendable>false</tendable>
     <stages>
@@ -432,7 +432,7 @@
         <statOffsets>
           <Vulnerability>0.3</Vulnerability>
           <SexFrequency>0.3</SexFrequency>
-          <EM_Milk_Amount_Factor>0.2</EM_Milk_Amount_Factor>
+          <EM_Milk_Amount_Factor MayRequire="akaster.equalmilking">0.2</EM_Milk_Amount_Factor>
         </statOffsets>
             <capMods>
           <li>
@@ -447,7 +447,7 @@
         <statOffsets>
           <Vulnerability>0.6</Vulnerability>
           <SexFrequency>0.6</SexFrequency>
-          <EM_Milk_Amount_Factor>0.5</EM_Milk_Amount_Factor>
+          <EM_Milk_Amount_Factor MayRequire="akaster.equalmilking">0.5</EM_Milk_Amount_Factor>
         </statOffsets>
             <capMods>
           <li>
@@ -465,7 +465,7 @@
         <statOffsets>
           <Vulnerability>0.8</Vulnerability>
           <SexFrequency>0.8</SexFrequency>
-          <EM_Milk_Amount_Factor>1</EM_Milk_Amount_Factor>
+          <EM_Milk_Amount_Factor MayRequire="akaster.equalmilking">1</EM_Milk_Amount_Factor>
         </statOffsets>
           <capMods>
           <li>
@@ -495,7 +495,7 @@
           <ComfyTemperatureMin>-12</ComfyTemperatureMin>
           <Vulnerability>1</Vulnerability>
           <SexFrequency>1</SexFrequency>
-          <EM_Milk_Amount_Factor>2</EM_Milk_Amount_Factor>
+          <EM_Milk_Amount_Factor MayRequire="akaster.equalmilking">2</EM_Milk_Amount_Factor>
         </statOffsets>
           <capMods>
           <li>
@@ -515,7 +515,7 @@
       </li>
             <li Class="EBSGFramework.HediffCompProperties_HediffWhileInSeverityRange">
                 <hediffsAtSeverities>
-                    <HappySlaveP>1~1.999</HappySlaveP>
+                    <HappySlaveC>1~1.999</HappySlaveC>
                     <AnimalMind>1~1.999</AnimalMind>
                 </hediffsAtSeverities>
             </li>

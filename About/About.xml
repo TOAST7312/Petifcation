@@ -27,7 +27,7 @@
 		<li>
 			<packageId>rjw.sexperience</packageId>
 			<displayName>Sexperience</displayName>
-			<downloadUrl>https://gitgud.io/ElToro/rjw-sexperience-ideology/-/tree/1.6</downloadUrl>
+			<downloadUrl>https://gitgud.io/ElToro/rjw-sexperience/-/tree/1.6?ref_type=heads</downloadUrl>
 		</li>
 	</modDependencies>
 	<loadAfter>

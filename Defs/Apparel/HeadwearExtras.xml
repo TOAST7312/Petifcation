@@ -27,6 +27,9 @@
       <countsAsClothingForNudity>false</countsAsClothingForNudity>
       <developmentalStageFilter>Adult</developmentalStageFilter>
       <wornGraphicPath>Apearal/Cat/CatEars/CatEarHat</wornGraphicPath>
+      <renderSkipFlags>
+        <li>None</li>
+      </renderSkipFlags>
     </apparel>
         <comps>
       <li Class="CompProperties_CauseHediff_Apparel">
@@ -86,7 +89,7 @@
     </nullifyingHediffs>
     <stages>
       <li>
-        <label>Cat Eats</label>
+        <label>Cat Ears</label>
         <description>I feel silly wearing these.</description>
         <baseMoodEffect>-1</baseMoodEffect>
       </li>
@@ -554,6 +557,9 @@
       <countsAsClothingForNudity>false</countsAsClothingForNudity>
       <developmentalStageFilter>Adult</developmentalStageFilter>
       <wornGraphicPath>Apearal/Cow/CowEars/CowEars</wornGraphicPath>
+      <renderSkipFlags>
+        <li>None</li>
+      </renderSkipFlags>
     </apparel>
         <comps>
       <li Class="CompProperties_CauseHediff_Apparel">
