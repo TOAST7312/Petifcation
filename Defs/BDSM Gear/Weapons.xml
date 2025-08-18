@@ -26,6 +26,9 @@
       <li>Woody</li>
     </stuffCategories>
     <recipeMaker>
+      <researchPrerequisites>
+        <li>PRPuppy</li>
+      </researchPrerequisites>
       <recipeUsers>
         <li>CraftingSpot</li>
       </recipeUsers>
@@ -43,9 +46,6 @@
         <chanceFactor>200</chanceFactor>
       </li>
     </tools>
-        <researchPrerequisites>
-          <li>PRPuppy</li>
-      </researchPrerequisites>
   </ThingDef>
 
       <ThingDef ParentName="BaseMeleeWeapon_Blunt">
@@ -74,6 +74,9 @@
       <li>Woody</li>
     </stuffCategories>
     <recipeMaker>
+      <researchPrerequisites>
+        <li>PRKitten</li>
+      </researchPrerequisites>
       <recipeUsers>
         <li>CraftingSpot</li>
       </recipeUsers>
@@ -91,9 +94,6 @@
         <chanceFactor>200</chanceFactor>
       </li>
     </tools>
-      <researchPrerequisites>
-          <li>PRKitten</li>
-      </researchPrerequisites>
   </ThingDef>
 
       <ThingDef ParentName="BaseMeleeWeapon_Blunt">
@@ -122,6 +122,9 @@
       <li>Leathery</li>
     </stuffCategories>
     <recipeMaker>
+      <researchPrerequisites>
+        <li>PRCow</li>
+      </researchPrerequisites>
       <recipeUsers>
         <li>CraftingSpot</li>
       </recipeUsers>
@@ -139,9 +142,6 @@
         <chanceFactor>200</chanceFactor>
       </li>
     </tools>
-      <researchPrerequisites>
-          <li>PRCow</li>
-      </researchPrerequisites>
   </ThingDef>
 
       <ThingDef ParentName="BaseMeleeWeapon_Blunt">
@@ -170,6 +170,9 @@
       <li>Leathery</li>
     </stuffCategories>
     <recipeMaker>
+      <researchPrerequisites>
+        <li>PRDoll</li>
+      </researchPrerequisites>
       <recipeUsers>
         <li>CraftingSpot</li>
       </recipeUsers>
@@ -187,9 +190,6 @@
         <chanceFactor>200</chanceFactor>
       </li>
     </tools>
-      <researchPrerequisites>
-          <li>PRDoll</li>
-      </researchPrerequisites>
   </ThingDef>
 
       <ThingDef ParentName="BaseMeleeWeapon_Blunt">
@@ -219,6 +219,9 @@
       <li>Metallic</li>
     </stuffCategories>
     <recipeMaker>
+      <researchPrerequisites>
+        <li>PRDoll</li>
+      </researchPrerequisites>
       <recipeUsers>
         <li>CraftingSpot</li>
       </recipeUsers>
@@ -236,9 +239,5 @@
         <chanceFactor>200</chanceFactor>
       </li>
     </tools>
-      <researchPrerequisites>
-          <li>PRDoll</li>
-      </researchPrerequisites>
   </ThingDef>
-
 </Defs>

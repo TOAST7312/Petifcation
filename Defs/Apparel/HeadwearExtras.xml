@@ -40,9 +40,11 @@
     <tradeTags>
       <li>BasicClothing</li>
     </tradeTags>
+    <recipeMaker>
       <researchPrerequisites>
           <li>PRKitten</li>
       </researchPrerequisites>
+    </recipeMaker>
   </ThingDef>
 
     <HediffDef>
@@ -162,7 +164,10 @@
       <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">0.05</SlaveSuppressionOffset>
     </equippedStatOffsets>
     <recipeMaker>
-      <researchPrerequisite>Machining</researchPrerequisite>
+      <researchPrerequisites>
+        <li>Machining</li>
+        <li>PRPuppy</li>
+      </researchPrerequisites>
       <unfinishedThingDef>UnfinishedMask</unfinishedThingDef>
       <recipeUsers Inherit="False">
         <li>TableMachining</li>
@@ -199,9 +204,6 @@
         <part>Head</part>
       </li>
     </comps>
-        <researchPrerequisites>
-          <li>PRPuppy</li>
-      </researchPrerequisites>
   </ThingDef>
 
   <ThingDef ParentName="HatMakeableBase">
@@ -228,7 +230,10 @@
       <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">0.05</SlaveSuppressionOffset>
     </equippedStatOffsets>
     <recipeMaker>
-      <researchPrerequisite>Machining</researchPrerequisite>
+      <researchPrerequisites>
+        <li>Machining</li>
+        <li>PRPuppy</li>
+      </researchPrerequisites>
       <unfinishedThingDef>UnfinishedMask</unfinishedThingDef>
       <recipeUsers Inherit="False">
         <li>TableMachining</li>
@@ -265,9 +270,6 @@
         <part>Head</part>
       </li>
     </comps>
-        <researchPrerequisites>
-          <li>PRPuppy</li>
-      </researchPrerequisites>
   </ThingDef>
 
     <HediffDef>
@@ -390,7 +392,10 @@
       <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">0.15</SlaveSuppressionOffset>
     </equippedStatOffsets>
     <recipeMaker>
-      <researchPrerequisite>Machining</researchPrerequisite>
+      <researchPrerequisites>
+        <li>Machining</li>
+        <li>PRDoll</li>
+      </researchPrerequisites>
       <unfinishedThingDef>UnfinishedMask</unfinishedThingDef>
       <recipeUsers Inherit="False">
         <li>TableMachining</li>
@@ -422,9 +427,6 @@
         <part>Head</part>
       </li>
     </comps>
-        <researchPrerequisites>
-          <li>PRDoll</li>
-      </researchPrerequisites>
   </ThingDef>
 
     <HediffDef>
@@ -570,9 +572,11 @@
     <tradeTags>
       <li>BasicClothing</li>
     </tradeTags>
-        <researchPrerequisites>
+    <recipeMaker>
+      <researchPrerequisites>
           <li>PRCow</li>
       </researchPrerequisites>
+    </recipeMaker>
   </ThingDef>
 
     <HediffDef>
