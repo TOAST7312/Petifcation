@@ -63,10 +63,10 @@
     <colorGenerator Class="ColorGenerator_StandardApparel" />
     <recipeMaker>
       <displayPriority>176</displayPriority>
-    </recipeMaker>
       <researchPrerequisites>
           <li>PRPuppy</li>
       </researchPrerequisites>
+    </recipeMaker>
   </ThingDef>
 
     <ThingDef ParentName="HatMakeableBase">
@@ -132,10 +132,10 @@
     <colorGenerator Class="ColorGenerator_StandardApparel" />
     <recipeMaker>
       <displayPriority>177</displayPriority>
-    </recipeMaker>
       <researchPrerequisites>
           <li>PRKitten</li>
       </researchPrerequisites>
+    </recipeMaker>
   </ThingDef>
 
       <ThingDef ParentName="HatMakeableBase">
@@ -201,10 +201,10 @@
     <colorGenerator Class="ColorGenerator_StandardApparel" />
     <recipeMaker>
       <displayPriority>178</displayPriority>
-    </recipeMaker>
       <researchPrerequisites>
           <li>PRCow</li>
       </researchPrerequisites>
+    </recipeMaker>
   </ThingDef>
 
         <ThingDef ParentName="HatMakeableBase">
@@ -236,7 +236,7 @@
       <slaveApparel>true</slaveApparel>
       <countsAsClothingForNudity>false</countsAsClothingForNudity>
       <bodyPartGroups>
-        <li>Head</li>
+        <li>Neck</li>
       </bodyPartGroups>
       <wornGraphicPath>Apearal/Doll/DollCollar/DollCollar</wornGraphicPath>
       <layers>
@@ -269,10 +269,10 @@
     <colorGenerator Class="ColorGenerator_StandardApparel" />
     <recipeMaker>
       <displayPriority>178</displayPriority>
-    </recipeMaker>
       <researchPrerequisites>
           <li>PRDoll</li>
       </researchPrerequisites>
+    </recipeMaker>
   </ThingDef>
 
 </Defs>
