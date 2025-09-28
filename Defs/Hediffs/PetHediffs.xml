@@ -1,6 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-      <HediffDef>
+  <HediffDef>
     <defName>pet_doggy</defName>
     <label>dogification training</label>
     <description>Dogification training renders a pawn simple, happy, and fuckable. Can be renforced with diet, apparel, or implants. Will fade with time if not reinforced. Primary increase is fertility.</description>
@@ -17,31 +18,31 @@
         <minSeverity>0.1</minSeverity>
         <socialFightChanceFactor>3</socialFightChanceFactor>
         <statOffsets>
-        <MentalBreakThreshold>0.04</MentalBreakThreshold>
+          <MentalBreakThreshold>0.04</MentalBreakThreshold>
           <Vulnerability>-0.2</Vulnerability>
         </statOffsets>
       </li>
-        <li>
+      <li>
         <label>resisting passively</label>
         <minSeverity>0.2</minSeverity>
         <statOffsets>
-        <MentalBreakThreshold>0.5</MentalBreakThreshold>
+          <MentalBreakThreshold>0.5</MentalBreakThreshold>
           <Vulnerability>-0.1</Vulnerability>
         </statOffsets>
-        </li>
-        <li>
+      </li>
+      <li>
         <label>resistance breaking</label>
         <minSeverity>0.3</minSeverity>
         <statOffsets>
           <Vulnerability>0.1</Vulnerability>
         </statOffsets>
-        </li>
-        <li>
+      </li>
+      <li>
         <label>resistance broken</label>
         <minSeverity>0.4</minSeverity>
         <statOffsets>
           <Vulnerability>0.2</Vulnerability>
-					<Fertility>0.4</Fertility>
+          <Fertility>0.4</Fertility>
         </statOffsets>
         </li>
         <li>
@@ -50,31 +51,31 @@
         <statOffsets>
           <Vulnerability>0.3</Vulnerability>
           <SexFrequency>0.3</SexFrequency>
-					<Fertility>0.6</Fertility>
+          <Fertility>0.6</Fertility>
         </statOffsets>
-            <capMods>
+        <capMods>
           <li>
             <capacity>Consciousness</capacity>
             <setMax>0.98</setMax>
           </li>
         </capMods>
-        </li>
-        <li>
+      </li>
+      <li>
         <label>embracing role</label>
         <minSeverity>0.6</minSeverity>
         <statOffsets>
           <Vulnerability>0.6</Vulnerability>
           <SexFrequency>0.6</SexFrequency>
-					<Fertility>1</Fertility>
+          <Fertility>1</Fertility>
         </statOffsets>
-            <capMods>
+        <capMods>
           <li>
             <capacity>Consciousness</capacity>
             <setMax>0.96</setMax>
           </li>
         </capMods>
-        </li>
-        <li>
+      </li>
+      <li>
         <label>forgetting humanity</label>
         <minSeverity>0.8</minSeverity>
         <disabledWorkTags>
@@ -83,9 +84,9 @@
         <statOffsets>
           <Vulnerability>0.8</Vulnerability>
           <SexFrequency>0.8</SexFrequency>
-					<Fertility>1.2</Fertility>
+          <Fertility>1.2</Fertility>
         </statOffsets>
-          <capMods>
+        <capMods>
           <li>
             <capacity>Consciousness</capacity>
             <setMax>0.94</setMax>
@@ -112,10 +113,10 @@
           <ComfyTemperatureMin>-12</ComfyTemperatureMin>
           <Vulnerability>1</Vulnerability>
           <SexFrequency>1</SexFrequency>
-					<Fertility>1.5</Fertility>
+          <Fertility>1.5</Fertility>
           <PawnBeauty>1</PawnBeauty>
         </statOffsets>
-          <capMods>
+        <capMods>
           <li>
             <capacity>Consciousness</capacity>
             <setMax>0.9</setMax>
@@ -125,22 +126,22 @@
             <postFactor>0.5</postFactor>
           </li>
         </capMods>
-        </li>
+      </li>
     </stages>
     <comps>
-          <li Class="HediffCompProperties_SeverityPerDay">
+      <li Class="HediffCompProperties_SeverityPerDay">
         <severityPerDay>-0.01</severityPerDay>
       </li>
-            <li Class="EBSGFramework.HediffCompProperties_HediffWhileInSeverityRange">
-                <hediffsAtSeverities>
-                    <HappySlaveP>1~2</HappySlaveP>
-                    <AnimalMind>1~2</AnimalMind>
-                </hediffsAtSeverities>
-            </li>
+      <li Class="EBSGFramework.HediffCompProperties_HediffWhileInSeverityRange">
+        <hediffsAtSeverities>
+          <HappySlaveP>1~2</HappySlaveP>
+          <AnimalMind>1~2</AnimalMind>
+        </hediffsAtSeverities>
+      </li>
     </comps>
   </HediffDef>
 
-    <HediffDef>
+  <HediffDef>
     <defName>doggycollared</defName>
     <label>collared</label>
     <description>The dog collar remind this pet of their place. May eventually cause a permanent shift in personality.</description>
@@ -153,19 +154,19 @@
       </li>
     </stages>
     <comps>
-        <li Class="EBSGFramework.HediffCompProperties_GiveOtherHediffPeriodically">
-                <hediff>pet_doggy</hediff>
-                <severity>0.01</severity>
-                <validSeverities>0.5</validSeverities>
-                <multiplySeverityByParentSeverity>False</multiplySeverityByParentSeverity>
-                <interval>18000</interval>
-        </li>
+      <li Class="EBSGFramework.HediffCompProperties_GiveOtherHediffPeriodically">
+        <hediff>pet_doggy</hediff>
+        <severity>0.01</severity>
+        <validSeverities>0.5</validSeverities>
+        <multiplySeverityByParentSeverity>False</multiplySeverityByParentSeverity>
+        <interval>18000</interval>
+      </li>
       <li Class="HediffCompProperties_RemoveIfApparelDropped" />
     </comps>
     <isBad>false</isBad>
   </HediffDef>
 
-    <HediffDef>
+  <HediffDef>
     <defName>HappySlaveP</defName>
     <label>happy puppy</label>
     <description>This puppy is happy and enjoys it's new life. Nearby masters will be happy to see it.</description>
@@ -195,7 +196,7 @@
     <isBad>false</isBad>
   </HediffDef>
 
-        <HediffDef>
+  <HediffDef>
     <defName>pet_kitty</defName>
     <label>catification training</label>
     <description>Catification training renders a pawn sassy, sweet, and fuckable. Can be renforced with diet, apparel, or implants. Will fade with time if not reinforced. Primary stat is Sex Frequency, not as submisive or pain tolerant as other pets.</description>
@@ -204,48 +205,48 @@
     <isBad>false</isBad>
     <tendable>false</tendable>
     <stages>
-        <li>
-            <label>just started</label>
-        </li>
+      <li>
+        <label>just started</label>
+      </li>
       <li>
         <label>resisting aggressively</label>
         <minSeverity>0.1</minSeverity>
         <socialFightChanceFactor>3</socialFightChanceFactor>
         <statOffsets>
-        <MentalBreakThreshold>0.04</MentalBreakThreshold>
+          <MentalBreakThreshold>0.04</MentalBreakThreshold>
           <Vulnerability>-0.2</Vulnerability>
         </statOffsets>
       </li>
-        <li>
+      <li>
         <label>resisting passively</label>
         <minSeverity>0.2</minSeverity>
         <statOffsets>
-        <MentalBreakThreshold>0.5</MentalBreakThreshold>
+          <MentalBreakThreshold>0.5</MentalBreakThreshold>
           <Vulnerability>-0.1</Vulnerability>
         </statOffsets>
-        </li>
-        <li>
+      </li>
+      <li>
         <label>resistance breaking</label>
         <minSeverity>0.3</minSeverity>
         <statOffsets>
           <Vulnerability>0.1</Vulnerability>
         </statOffsets>
-        </li>
-        <li>
+      </li>
+      <li>
         <label>resistance broken</label>
         <minSeverity>0.4</minSeverity>
         <statOffsets>
           <Vulnerability>0.2</Vulnerability>
         </statOffsets>
-        </li>
-        <li>
+      </li>
+      <li>
         <label>learning</label>
         <minSeverity>0.5</minSeverity>
         <statOffsets>
           <Vulnerability>0.3</Vulnerability>
           <SexFrequency>0.8</SexFrequency>
         </statOffsets>
-            <capMods>
+        <capMods>
           <li>
             <capacity>Consciousness</capacity>
             <setMax>0.98</setMax>
@@ -259,14 +260,14 @@
           <Vulnerability>0.6</Vulnerability>
           <SexFrequency>2</SexFrequency>
         </statOffsets>
-            <capMods>
+        <capMods>
           <li>
             <capacity>Consciousness</capacity>
             <setMax>0.96</setMax>
           </li>
         </capMods>
-        </li>
-        <li>
+      </li>
+      <li>
         <label>forgetting humanity</label>
         <minSeverity>0.8</minSeverity>
         <disabledWorkTags>
@@ -276,14 +277,14 @@
           <Vulnerability>0.8</Vulnerability>
           <SexFrequency>3</SexFrequency>
         </statOffsets>
-          <capMods>
+        <capMods>
           <li>
             <capacity>Consciousness</capacity>
             <setMax>0.94</setMax>
           </li>
         </capMods>
-        </li>
-        <li>
+      </li>
+      <li>
         <label>fully trained</label>
         <minSeverity>1</minSeverity>
         <blocksMentalBreaks>true</blocksMentalBreaks>
@@ -303,7 +304,7 @@
           <SexFrequency>4</SexFrequency>
           <PawnBeauty>2</PawnBeauty>
         </statOffsets>
-          <capMods>
+        <capMods>
           <li>
             <capacity>Consciousness</capacity>
             <setMax>0.93</setMax>
@@ -316,19 +317,19 @@
         </li>
     </stages>
     <comps>
-          <li Class="HediffCompProperties_SeverityPerDay">
+      <li Class="HediffCompProperties_SeverityPerDay">
         <severityPerDay>-0.01</severityPerDay>
       </li>
-            <li Class="EBSGFramework.HediffCompProperties_HediffWhileInSeverityRange">
-                <hediffsAtSeverities>
-                    <HappySlaveK>1~1.999</HappySlaveK>
-                    <AnimalMind>1~1.999</AnimalMind>
-                </hediffsAtSeverities>
-            </li>
+      <li Class="EBSGFramework.HediffCompProperties_HediffWhileInSeverityRange">
+        <hediffsAtSeverities>
+          <HappySlaveK>1~1.999</HappySlaveK>
+          <AnimalMind>1~1.999</AnimalMind>
+        </hediffsAtSeverities>
+      </li>
     </comps>
   </HediffDef>
 
-    <HediffDef>
+  <HediffDef>
     <defName>HappySlaveK</defName>
     <label>happy kitty</label>
     <description>This kitty is happy and enjoys it's new life. Nearby masters will be happy to see it.</description>
@@ -358,7 +359,7 @@
     <isBad>false</isBad>
   </HediffDef>
 
-    <HediffDef>
+  <HediffDef>
     <defName>catcollared</defName>
     <label>collared</label>
     <description>The cat collar reminds this pet of their place. May eventually cause a permanent shift in personality.</description>
@@ -371,19 +372,19 @@
       </li>
     </stages>
     <comps>
-        <li Class="EBSGFramework.HediffCompProperties_GiveOtherHediffPeriodically">
-                <hediff>pet_kitty</hediff>
-                <severity>0.01</severity>
-                <validSeverities>0.5</validSeverities>
-                <multiplySeverityByParentSeverity>False</multiplySeverityByParentSeverity>
-                <interval>18000</interval>
-        </li>
+      <li Class="EBSGFramework.HediffCompProperties_GiveOtherHediffPeriodically">
+        <hediff>pet_kitty</hediff>
+        <severity>0.01</severity>
+        <validSeverities>0.5</validSeverities>
+        <multiplySeverityByParentSeverity>False</multiplySeverityByParentSeverity>
+        <interval>18000</interval>
+      </li>
       <li Class="HediffCompProperties_RemoveIfApparelDropped" />
     </comps>
     <isBad>false</isBad>
   </HediffDef>
 
-        <HediffDef>
+  <HediffDef>
     <defName>pet_cow</defName>
     <label>cowification training</label>
     <description>Cowification training renders a pawn dumb, productive, and fuckable. Can be renforced with diet, apparel, or implants. Will fade with time if not reinforced. (milk production increase requires equal milking)</description>
@@ -392,34 +393,34 @@
     <isBad>false</isBad>
     <tendable>false</tendable>
     <stages>
-        <li>
-            <label>just started</label>
-        </li>
+      <li>
+        <label>just started</label>
+      </li>
       <li>
         <label>resisting aggressively</label>
         <minSeverity>0.1</minSeverity>
         <socialFightChanceFactor>3</socialFightChanceFactor>
         <statOffsets>
-        <MentalBreakThreshold>0.04</MentalBreakThreshold>
+          <MentalBreakThreshold>0.04</MentalBreakThreshold>
           <Vulnerability>-0.2</Vulnerability>
         </statOffsets>
       </li>
-        <li>
+      <li>
         <label>resisting passively</label>
         <minSeverity>0.2</minSeverity>
         <statOffsets>
-        <MentalBreakThreshold>0.5</MentalBreakThreshold>
+          <MentalBreakThreshold>0.5</MentalBreakThreshold>
           <Vulnerability>-0.1</Vulnerability>
         </statOffsets>
-        </li>
-        <li>
+      </li>
+      <li>
         <label>resistance breaking</label>
         <minSeverity>0.3</minSeverity>
         <statOffsets>
           <Vulnerability>0.1</Vulnerability>
         </statOffsets>
-        </li>
-        <li>
+      </li>
+      <li>
         <label>resistance broken</label>
         <minSeverity>0.4</minSeverity>
         <statOffsets>
@@ -434,14 +435,14 @@
           <SexFrequency>0.3</SexFrequency>
           <EM_Milk_Amount_Factor MayRequire="akaster.equalmilking">0.2</EM_Milk_Amount_Factor>
         </statOffsets>
-            <capMods>
+        <capMods>
           <li>
             <capacity>Consciousness</capacity>
             <setMax>0.98</setMax>
           </li>
         </capMods>
-        </li>
-        <li>
+      </li>
+      <li>
         <label>embracing role</label>
         <minSeverity>0.6</minSeverity>
         <statOffsets>
@@ -449,14 +450,14 @@
           <SexFrequency>0.6</SexFrequency>
           <EM_Milk_Amount_Factor MayRequire="akaster.equalmilking">0.5</EM_Milk_Amount_Factor>
         </statOffsets>
-            <capMods>
+        <capMods>
           <li>
             <capacity>Consciousness</capacity>
             <setMax>0.96</setMax>
           </li>
         </capMods>
-        </li>
-        <li>
+      </li>
+      <li>
         <label>forgetting humanity</label>
         <minSeverity>0.8</minSeverity>
         <disabledWorkTags>
@@ -467,7 +468,7 @@
           <SexFrequency>0.8</SexFrequency>
           <EM_Milk_Amount_Factor MayRequire="akaster.equalmilking">1</EM_Milk_Amount_Factor>
         </statOffsets>
-          <capMods>
+        <capMods>
           <li>
             <capacity>Consciousness</capacity>
             <setMax>0.94</setMax>
@@ -497,7 +498,7 @@
           <SexFrequency>1</SexFrequency>
           <EM_Milk_Amount_Factor MayRequire="akaster.equalmilking">2</EM_Milk_Amount_Factor>
         </statOffsets>
-          <capMods>
+        <capMods>
           <li>
             <capacity>Consciousness</capacity>
             <setMax>0.9</setMax>
@@ -507,22 +508,22 @@
             <postFactor>0.4</postFactor>
           </li>
         </capMods>
-        </li>
+      </li>
     </stages>
     <comps>
-          <li Class="HediffCompProperties_SeverityPerDay">
+      <li Class="HediffCompProperties_SeverityPerDay">
         <severityPerDay>-0.01</severityPerDay>
       </li>
-            <li Class="EBSGFramework.HediffCompProperties_HediffWhileInSeverityRange">
-                <hediffsAtSeverities>
-                    <HappySlaveC>1~1.999</HappySlaveC>
-                    <AnimalMind>1~1.999</AnimalMind>
-                </hediffsAtSeverities>
-            </li>
+      <li Class="EBSGFramework.HediffCompProperties_HediffWhileInSeverityRange">
+        <hediffsAtSeverities>
+          <HappySlaveC>1~1.999</HappySlaveC>
+          <AnimalMind>1~1.999</AnimalMind>
+        </hediffsAtSeverities>
+      </li>
     </comps>
   </HediffDef>
 
-    <HediffDef>
+  <HediffDef>
     <defName>HappySlaveC</defName>
     <label>happy cow</label>
     <description>This cow is happy and enjoys it's new life. Nearby masters will be happy to see it.</description>
@@ -552,7 +553,7 @@
     <isBad>false</isBad>
   </HediffDef>
 
-    <HediffDef>
+  <HediffDef>
     <defName>cowcollared</defName>
     <label>collared</label>
     <description>The cow bell reminds this pet of their place. May eventually cause a permanent shift in personality.</description>
@@ -565,19 +566,19 @@
       </li>
     </stages>
     <comps>
-        <li Class="EBSGFramework.HediffCompProperties_GiveOtherHediffPeriodically">
-                <hediff>pet_cow</hediff>
-                <severity>0.01</severity>
-                <validSeverities>0.5</validSeverities>
-                <multiplySeverityByParentSeverity>False</multiplySeverityByParentSeverity>
-                <interval>18000</interval>
-        </li>
+      <li Class="EBSGFramework.HediffCompProperties_GiveOtherHediffPeriodically">
+        <hediff>pet_cow</hediff>
+        <severity>0.01</severity>
+        <validSeverities>0.5</validSeverities>
+        <multiplySeverityByParentSeverity>False</multiplySeverityByParentSeverity>
+        <interval>18000</interval>
+      </li>
       <li Class="HediffCompProperties_RemoveIfApparelDropped" />
     </comps>
     <isBad>false</isBad>
   </HediffDef>
 
-        <HediffDef>
+  <HediffDef>
     <defName>pet_doll</defName>
     <label>dollification training</label>
     <description>Dollification training renders a pawn an empty, poseable, sex toy. It is a longer process than other forms of training and quite brutal. Masochists love it though. Can be renforced with diet, apparel, or implants. Will fade with time if not reinforced. Primary stats are Vulnerability and Pain resistance.</description>
@@ -586,69 +587,69 @@
     <isBad>false</isBad>
     <tendable>false</tendable>
     <stages>
-        <li>
-            <label>just started</label>
-        </li>
+      <li>
+        <label>just started</label>
+      </li>
       <li>
         <label>resisting aggressively</label>
         <minSeverity>0.1</minSeverity>
         <socialFightChanceFactor>3</socialFightChanceFactor>
         <statOffsets>
-        <MentalBreakThreshold>0.04</MentalBreakThreshold>
+          <MentalBreakThreshold>0.04</MentalBreakThreshold>
           <Vulnerability>-0.2</Vulnerability>
         </statOffsets>
       </li>
-        <li>
+      <li>
         <label>resisting passively</label>
         <minSeverity>0.3</minSeverity>
         <statOffsets>
-        <MentalBreakThreshold>0.5</MentalBreakThreshold>
+          <MentalBreakThreshold>0.5</MentalBreakThreshold>
           <Vulnerability>-0.1</Vulnerability>
         </statOffsets>
-        </li>
-        <li>
+      </li>
+      <li>
         <label>resistance breaking</label>
         <minSeverity>0.5</minSeverity>
         <statOffsets>
           <Vulnerability>0.1</Vulnerability>
         </statOffsets>
-        </li>
-        <li>
+      </li>
+      <li>
         <label>resistance broken</label>
         <minSeverity>1</minSeverity>
         <statOffsets>
           <Vulnerability>0.4</Vulnerability>
         </statOffsets>
-        </li>
-        <li>
+      </li>
+      <li>
         <label>learning</label>
         <minSeverity>1.2</minSeverity>
         <statOffsets>
           <Vulnerability>0.8</Vulnerability>
           <SexFrequency>0.1</SexFrequency>
         </statOffsets>
-            <capMods>
+        <capMods>
           <li>
             <capacity>Consciousness</capacity>
             <setMax>0.98</setMax>
           </li>
         </capMods>
-        </li>
-        <li>
+      </li>
+      <li>
         <label>embracing role</label>
         <minSeverity>1.5</minSeverity>
         <statOffsets>
           <Vulnerability>1.5</Vulnerability>
           <SexFrequency>0.3</SexFrequency>
         </statOffsets>
-            <capMods>
+        <capMods>
           <li>
             <capacity>Consciousness</capacity>
             <setMax>0.96</setMax>
           </li>
         </capMods>
-        </li>
-        <li>
+      </li>
+      <li>
         <label>forgetting humanity</label>
         <minSeverity>1.8</minSeverity>
         <disabledWorkTags>
@@ -658,7 +659,7 @@
           <Vulnerability>2.2</Vulnerability>
           <SexFrequency>0.5</SexFrequency>
         </statOffsets>
-          <capMods>
+        <capMods>
           <li>
             <capacity>Consciousness</capacity>
             <setMax>0.94</setMax>
@@ -688,7 +689,7 @@
           <Vulnerability>3</Vulnerability>
           <SexFrequency>0.8</SexFrequency>
         </statOffsets>
-          <capMods>
+        <capMods>
           <li>
             <capacity>Consciousness</capacity>
             <setMax>0.6</setMax>
@@ -698,22 +699,22 @@
             <postFactor>0.2</postFactor>
           </li>
         </capMods>
-        </li>
+      </li>
     </stages>
     <comps>
-          <li Class="HediffCompProperties_SeverityPerDay">
+      <li Class="HediffCompProperties_SeverityPerDay">
         <severityPerDay>-0.01</severityPerDay>
       </li>
-          <li Class="EBSGFramework.HediffCompProperties_HediffWhileInSeverityRange">
-                <hediffsAtSeverities>
-                    <HappySlaveD>1~1.999</HappySlaveD>
-                    <AnimalMind>1~1.999</AnimalMind>
-                </hediffsAtSeverities>
-          </li>
+      <li Class="EBSGFramework.HediffCompProperties_HediffWhileInSeverityRange">
+        <hediffsAtSeverities>
+          <HappySlaveD>1~1.999</HappySlaveD>
+          <AnimalMind>1~1.999</AnimalMind>
+        </hediffsAtSeverities>
+      </li>
     </comps>
   </HediffDef>
 
-    <HediffDef>
+  <HediffDef>
     <defName>HappySlaveD</defName>
     <label>Empty doll</label>
     <description>This doll is empty and there is no thought's in it's head. Nearby masters will be happy to see it.</description>
@@ -743,7 +744,7 @@
     <isBad>false</isBad>
   </HediffDef>
 
-    <HediffDef>
+  <HediffDef>
     <defName>dollcollared</defName>
     <label>collared</label>
     <description>The objectification of being asigned an id number helps renforce that the sex doll is sub-human. May eventually cause a permanent shift in personality.</description>
@@ -756,44 +757,44 @@
       </li>
     </stages>
     <comps>
-        <li Class="EBSGFramework.HediffCompProperties_GiveOtherHediffPeriodically">
-                <hediff>pet_doll</hediff>
-                <severity>0.01</severity>
-                <validSeverities>0.5</validSeverities>
-                <multiplySeverityByParentSeverity>False</multiplySeverityByParentSeverity>
-                <interval>18000</interval>
-        </li>
+      <li Class="EBSGFramework.HediffCompProperties_GiveOtherHediffPeriodically">
+        <hediff>pet_doll</hediff>
+        <severity>0.01</severity>
+        <validSeverities>0.5</validSeverities>
+        <multiplySeverityByParentSeverity>False</multiplySeverityByParentSeverity>
+        <interval>18000</interval>
+      </li>
       <li Class="HediffCompProperties_RemoveIfApparelDropped" />
     </comps>
     <isBad>false</isBad>
   </HediffDef>
 
-      <HediffDef>
-        <defName>AnimalMind</defName>
-        <label>broken mind</label>
-        <description>They've forgotten who they are.</description>
-        <everCurableByItem>false</everCurableByItem>
-        <initialSeverity>0.001</initialSeverity>
-        <stages />
-        <hediffClass>HediffWithComps</hediffClass>
-        <scenarioCanAdd>false</scenarioCanAdd>
-        <comps>
-            <li Class="EBSGFramework.HediffCompProperties_TemporarySkillChange">
-                <skillChanges>
-                    <li>
-                        <skill>Intellectual</skill>
-                        <setPassion>True</setPassion>
-                        <passion>None</passion>
-                        <skillChange>-20</skillChange>
-                    </li>
-                    <li>
-                        <skill>Sex</skill>
-                        <setPassion>True</setPassion>
-                        <passion>Major</passion>
-                        <skillChange>5</skillChange>
-                    </li>
-                </skillChanges>
-            </li>
-        </comps>
-    </HediffDef>
+  <HediffDef>
+    <defName>AnimalMind</defName>
+    <label>broken mind</label>
+    <description>They've forgotten who they are.</description>
+    <everCurableByItem>false</everCurableByItem>
+    <initialSeverity>0.001</initialSeverity>
+    <stages />
+    <hediffClass>HediffWithComps</hediffClass>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <comps>
+      <li Class="EBSGFramework.HediffCompProperties_TemporarySkillChange">
+        <skillChanges>
+          <li>
+            <skill>Intellectual</skill>
+            <setPassion>True</setPassion>
+            <passion>None</passion>
+            <skillChange>-20</skillChange>
+          </li>
+          <li>
+            <skill>Sex</skill>
+            <setPassion>True</setPassion>
+            <passion>Major</passion>
+            <skillChange>5</skillChange>
+          </li>
+        </skillChanges>
+      </li>
+    </comps>
+  </HediffDef>
 </Defs>

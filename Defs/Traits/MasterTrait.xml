@@ -1,12 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
  
   <TraitDef>
     <defName>MasterDom</defName>
     <commonality>0.3</commonality>
-    <forcedPassions>
-      <li>Social</li>
-      <li>Melee</li>
-    </forcedPassions>
     <degreeDatas>
       <li>
         <label>Soft Dominant</label>
@@ -18,9 +15,9 @@
           <MeleeHitChance>1</MeleeHitChance>
           <MentalBreakThreshold>0.07</MentalBreakThreshold>
         </statOffsets>
-    </li>
+      </li>
     </degreeDatas>
-        <conflictingTraits>
+    <conflictingTraits>
       <li>MasterDomC</li>
       <li>Wimp</li>
       <li>Kind</li>
@@ -30,9 +27,6 @@
   <TraitDef>
     <defName>MasterDomC</defName>
     <commonality>0.1</commonality>
-    <forcedPassions>
-      <li>Melee</li>
-    </forcedPassions>
     <degreeDatas>
       <li>
         <label>Cruel Dominant</label>
@@ -47,7 +41,7 @@
         </statOffsets>
       </li>
     </degreeDatas>
-        <conflictingTraits>
+    <conflictingTraits>
       <li>MasterDom</li>
       <li>Wimp</li>
       <li>Kind</li>

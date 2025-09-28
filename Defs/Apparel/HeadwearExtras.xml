@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
   <ThingDef ParentName="CowboyHat">
@@ -6,7 +7,7 @@
     <description>A nice-looking set of cat ears. Improves kitten training.</description>
     <possessionCount>1</possessionCount>
     <graphicData>
-      <texPath>Apearal/Cat/CatEars/CatEarHat_north</texPath>
+      <texPath>Apparel/Cat/CatEars/CatEarHat_north</texPath>
       <drawSize>(0.9, 0.9)</drawSize>
     </graphicData>
     <costStuffCount>20</costStuffCount>
@@ -26,12 +27,12 @@
       <canBeDesiredForIdeo>true</canBeDesiredForIdeo>
       <countsAsClothingForNudity>false</countsAsClothingForNudity>
       <developmentalStageFilter>Adult</developmentalStageFilter>
-      <wornGraphicPath>Apearal/Cat/CatEars/CatEarHat</wornGraphicPath>
+      <wornGraphicPath>Apparel/Cat/CatEars/CatEarHat</wornGraphicPath>
       <renderSkipFlags>
         <li>None</li>
       </renderSkipFlags>
     </apparel>
-        <comps>
+    <comps>
       <li Class="CompProperties_CauseHediff_Apparel">
         <hediff>kittenears</hediff>
         <part>Head</part>
@@ -42,12 +43,12 @@
     </tradeTags>
     <recipeMaker>
       <researchPrerequisites>
-          <li>PRKitten</li>
+        <li>PRKitten</li>
       </researchPrerequisites>
     </recipeMaker>
   </ThingDef>
 
-    <HediffDef>
+  <HediffDef>
     <defName>kittenears</defName>
     <label>cat ears</label>
     <description>The cat ears reminds the pet of their place, while also making them super cute. :3</description>
@@ -61,19 +62,19 @@
       </li>
     </stages>
     <comps>
-        <li Class="EBSGFramework.HediffCompProperties_GiveOtherHediffPeriodically">
-                <hediff>pet_kitty</hediff>
-                <severity>0.01</severity>
-                <validSeverities>0.5</validSeverities>
-                <multiplySeverityByParentSeverity>False</multiplySeverityByParentSeverity>
-                <interval>18000</interval>
-        </li>
+      <li Class="EBSGFramework.HediffCompProperties_GiveOtherHediffPeriodically">
+        <hediff>pet_kitty</hediff>
+        <severity>0.01</severity>
+        <validSeverities>0.5</validSeverities>
+        <multiplySeverityByParentSeverity>False</multiplySeverityByParentSeverity>
+        <interval>18000</interval>
+      </li>
       <li Class="HediffCompProperties_RemoveIfApparelDropped" />
     </comps>
     <isBad>false</isBad>
   </HediffDef>
 
- <ThoughtDef>
+  <ThoughtDef>
     <defName>kittenearsThought</defName>
     <workerClass>ThoughtWorker_Hediff</workerClass>
     <hediff>kittenears</hediff>
@@ -81,7 +82,7 @@
     <validWhileDespawned>true</validWhileDespawned>
     <nullifyingTraits>
       <li>Masochist</li>
-	  <li>Nymphomaniac</li>
+      <li>Nymphomaniac</li>
       <li>MasterDom</li>
       <li>MasterDomC</li>
       <li>Rapist</li>
@@ -98,18 +99,18 @@
     </stages>
   </ThoughtDef>
 
- <ThoughtDef>
+  <ThoughtDef>
     <defName>kittenearsThoughtHorny</defName>
     <workerClass>ThoughtWorker_Hediff</workerClass>
     <hediff>kittenears</hediff>
     <stackLimit>1</stackLimit>
     <validWhileDespawned>true</validWhileDespawned>
-	<requiredTraits>
+    <requiredTraits>
       <li>Masochist</li>
-	  <li>Nymphomaniac</li>
-	</requiredTraits>
+      <li>Nymphomaniac</li>
+    </requiredTraits>
     <requiredHediffs>
-        <li>HappySlaveK</li>
+      <li>HappySlaveK</li>
     </requiredHediffs>
     <stages>
       <li>
@@ -120,17 +121,17 @@
     </stages>
   </ThoughtDef>
 
- <ThoughtDef>
+  <ThoughtDef>
     <defName>kittenearsThoughtDom</defName>
     <workerClass>ThoughtWorker_Hediff</workerClass>
     <hediff>kittenears</hediff>
     <stackLimit>1</stackLimit>
     <validWhileDespawned>true</validWhileDespawned>
-	<requiredTraits>
+    <requiredTraits>
       <li>MasterDom</li>
       <li>Rapist</li>
       <li>MasterDomC</li>
-	</requiredTraits>
+    </requiredTraits>
     <stages>
       <li>
         <label>Stupid Ears</label>
@@ -146,7 +147,7 @@
     <description>A flexible latex mask worn over the face to give the wearer the apparence of a dog.dy.\n\n Improves puppy training.</description>
     <possessionCount>1</possessionCount>
     <graphicData>
-      <texPath>Apearal/Dog/DogMask/DogMask_east</texPath>
+      <texPath>Apparel/Dog/DogMask/DogMask_east</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>0.8</drawSize>
     </graphicData>
@@ -184,7 +185,7 @@
       <bodyPartGroups>
         <li>FullHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>Apearal/Dog/DogMask/DogMask</wornGraphicPath>
+      <wornGraphicPath>Apparel/Dog/DogMask/DogMask</wornGraphicPath>
       <tags>
         <li>IndustrialBasic</li>
       </tags>
@@ -198,7 +199,7 @@
         <li>Overhead</li>
       </layers>
     </apparel>
-        <comps>
+    <comps>
       <li Class="CompProperties_CauseHediff_Apparel">
         <hediff>doggymasked</hediff>
         <part>Head</part>
@@ -212,7 +213,7 @@
     <description>A flexible latex mask worn over the face to give the wearer the apparence of a dog.\n\n Improves puppy training.</description>
     <possessionCount>1</possessionCount>
     <graphicData>
-      <texPath>Apearal/Dog/DogMaskF/DogMaskF_east</texPath>
+      <texPath>Apparel/Dog/DogMaskF/DogMaskF_east</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>0.8</drawSize>
     </graphicData>
@@ -250,7 +251,7 @@
       <bodyPartGroups>
         <li>FullHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>Apearal/Dog/DogMaskF/DogMaskF</wornGraphicPath>
+      <wornGraphicPath>Apparel/Dog/DogMaskF/DogMaskF</wornGraphicPath>
       <tags>
         <li>IndustrialBasic</li>
       </tags>
@@ -264,7 +265,7 @@
         <li>Overhead</li>
       </layers>
     </apparel>
-        <comps>
+    <comps>
       <li Class="CompProperties_CauseHediff_Apparel">
         <hediff>doggymasked</hediff>
         <part>Head</part>
@@ -272,7 +273,7 @@
     </comps>
   </ThingDef>
 
-    <HediffDef>
+  <HediffDef>
     <defName>doggymasked</defName>
     <label>masked</label>
     <description>The dog mask reminds the pet of their place. May eventually cause a permanent shift in personality.</description>
@@ -287,13 +288,13 @@
       </li>
     </stages>
     <comps>
-        <li Class="EBSGFramework.HediffCompProperties_GiveOtherHediffPeriodically">
-                <hediff>pet_doggy</hediff>
-                <severity>0.01</severity>
-                <validSeverities>0.5</validSeverities>
-                <multiplySeverityByParentSeverity>False</multiplySeverityByParentSeverity>
-                <interval>18000</interval>
-        </li>
+      <li Class="EBSGFramework.HediffCompProperties_GiveOtherHediffPeriodically">
+        <hediff>pet_doggy</hediff>
+        <severity>0.01</severity>
+        <validSeverities>0.5</validSeverities>
+        <multiplySeverityByParentSeverity>False</multiplySeverityByParentSeverity>
+        <interval>18000</interval>
+      </li>
       <li Class="HediffCompProperties_RemoveIfApparelDropped" />
     </comps>
     <isBad>false</isBad>
@@ -301,7 +302,7 @@
 
 
 
- <ThoughtDef>
+  <ThoughtDef>
     <defName>doggymaskedThought</defName>
     <workerClass>ThoughtWorker_Hediff</workerClass>
     <hediff>doggymasked</hediff>
@@ -309,7 +310,7 @@
     <validWhileDespawned>true</validWhileDespawned>
     <nullifyingTraits>
       <li>Masochist</li>
-	  <li>Nymphomaniac</li>
+      <li>Nymphomaniac</li>
       <li>MasterDom</li>
       <li>MasterDomC</li>
       <li>Rapist</li>
@@ -326,18 +327,18 @@
     </stages>
   </ThoughtDef>
 
- <ThoughtDef>
+  <ThoughtDef>
     <defName>doggymaskedThoughtHorny</defName>
     <workerClass>ThoughtWorker_Hediff</workerClass>
     <hediff>doggymasked</hediff>
     <stackLimit>1</stackLimit>
     <validWhileDespawned>true</validWhileDespawned>
-	<requiredTraits>
+    <requiredTraits>
       <li>Masochist</li>
-	  <li>Nymphomaniac</li>
-	</requiredTraits>
+      <li>Nymphomaniac</li>
+    </requiredTraits>
     <requiredHediffs>
-        <li>HappySlaveP</li>
+      <li>HappySlaveP</li>
     </requiredHediffs>
     <stages>
       <li>
@@ -348,17 +349,17 @@
     </stages>
   </ThoughtDef>
 
- <ThoughtDef>
+  <ThoughtDef>
     <defName>doggymaskedThoughtDom</defName>
     <workerClass>ThoughtWorker_Hediff</workerClass>
     <hediff>doggymasked</hediff>
     <stackLimit>1</stackLimit>
     <validWhileDespawned>true</validWhileDespawned>
-	<requiredTraits>
+    <requiredTraits>
       <li>MasterDom</li>
       <li>Rapist</li>
       <li>MasterDomC</li>
-	</requiredTraits>
+    </requiredTraits>
     <stages>
       <li>
         <label>Stupid Mask</label>
@@ -374,7 +375,7 @@
     <description>A flexible latex mask worn over the face to block sight. Includes a tube inserted down the wearers throat, preventing speaking and eating normally.\n\n Improves doll training.</description>
     <possessionCount>1</possessionCount>
     <graphicData>
-      <texPath>Apearal/Doll/DollMask/DollMask_south</texPath>
+      <texPath>Apparel/Doll/DollMask/DollMask_south</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>0.8</drawSize>
     </graphicData>
@@ -412,7 +413,7 @@
       <bodyPartGroups>
         <li>FullHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>Apearal/Doll/DollMask/DollMask</wornGraphicPath>
+      <wornGraphicPath>Apparel/Doll/DollMask/DollMask</wornGraphicPath>
       <canBeDesiredForIdeo>true</canBeDesiredForIdeo>
       <layers>
         <li>Overhead</li>
@@ -454,19 +455,19 @@
       </li>
     </stages>
     <comps>
-        <li Class="EBSGFramework.HediffCompProperties_GiveOtherHediffPeriodically">
-                <hediff>pet_doll</hediff>
-                <severity>0.01</severity>
-                <validSeverities>0.5</validSeverities>
-                <multiplySeverityByParentSeverity>False</multiplySeverityByParentSeverity>
-                <interval>18000</interval>
-        </li>
+      <li Class="EBSGFramework.HediffCompProperties_GiveOtherHediffPeriodically">
+        <hediff>pet_doll</hediff>
+        <severity>0.01</severity>
+        <validSeverities>0.5</validSeverities>
+        <multiplySeverityByParentSeverity>False</multiplySeverityByParentSeverity>
+        <interval>18000</interval>
+      </li>
       <li Class="HediffCompProperties_RemoveIfApparelDropped" />
     </comps>
     <isBad>false</isBad>
   </HediffDef>
 
- <ThoughtDef>
+  <ThoughtDef>
     <defName>dollymaskedThought</defName>
     <workerClass>ThoughtWorker_Hediff</workerClass>
     <hediff>dollymasked</hediff>
@@ -474,7 +475,7 @@
     <validWhileDespawned>true</validWhileDespawned>
     <nullifyingTraits>
       <li>Masochist</li>
-	  <li>Nymphomaniac</li>
+      <li>Nymphomaniac</li>
       <li>MasterDom</li>
       <li>MasterDomC</li>
       <li>Rapist</li>
@@ -491,18 +492,18 @@
     </stages>
   </ThoughtDef>
 
- <ThoughtDef>
+  <ThoughtDef>
     <defName>dollymaskedThoughtHorny</defName>
     <workerClass>ThoughtWorker_Hediff</workerClass>
     <hediff>dollymasked</hediff>
     <stackLimit>1</stackLimit>
     <validWhileDespawned>true</validWhileDespawned>
-	<requiredTraits>
+    <requiredTraits>
       <li>Masochist</li>
-	  <li>Nymphomaniac</li>
-	</requiredTraits>
+      <li>Nymphomaniac</li>
+    </requiredTraits>
     <requiredHediffs>
-        <li>HappySlaveD</li>
+      <li>HappySlaveD</li>
     </requiredHediffs>
     <stages>
       <li>
@@ -513,17 +514,17 @@
     </stages>
   </ThoughtDef>
 
- <ThoughtDef>
+  <ThoughtDef>
     <defName>dollymaskedThoughtDom</defName>
     <workerClass>ThoughtWorker_Hediff</workerClass>
     <hediff>dollymasked</hediff>
     <stackLimit>1</stackLimit>
     <validWhileDespawned>true</validWhileDespawned>
-	<requiredTraits>
+    <requiredTraits>
       <li>MasterDom</li>
       <li>Rapist</li>
       <li>MasterDomC</li>
-	</requiredTraits>
+    </requiredTraits>
     <stages>
       <li>
         <label>Choking Mask</label>
@@ -539,7 +540,7 @@
     <description>A nice-looking set of cow ears. Improves cow training.</description>
     <possessionCount>1</possessionCount>
     <graphicData>
-      <texPath>Apearal/Cow/CowEars/CowEars_north</texPath>
+      <texPath>Apparel/Cow/CowEars/CowEars_north</texPath>
       <drawSize>(0.9, 0.9)</drawSize>
     </graphicData>
     <costStuffCount>20</costStuffCount>
@@ -558,7 +559,7 @@
     <apparel>
       <countsAsClothingForNudity>false</countsAsClothingForNudity>
       <developmentalStageFilter>Adult</developmentalStageFilter>
-      <wornGraphicPath>Apearal/Cow/CowEars/CowEars</wornGraphicPath>
+      <wornGraphicPath>Apparel/Cow/CowEars/CowEars</wornGraphicPath>
       <renderSkipFlags>
         <li>None</li>
       </renderSkipFlags>
@@ -605,7 +606,7 @@
     <isBad>false</isBad>
   </HediffDef>
 
- <ThoughtDef>
+  <ThoughtDef>
     <defName>cowearsThought</defName>
     <workerClass>ThoughtWorker_Hediff</workerClass>
     <hediff>cowears</hediff>
@@ -613,7 +614,7 @@
     <validWhileDespawned>true</validWhileDespawned>
     <nullifyingTraits>
       <li>Masochist</li>
-	  <li>Nymphomaniac</li>
+      <li>Nymphomaniac</li>
       <li>MasterDom</li>
       <li>MasterDomC</li>
       <li>Rapist</li>
@@ -630,18 +631,18 @@
     </stages>
   </ThoughtDef>
 
- <ThoughtDef>
+  <ThoughtDef>
     <defName>cowearsThoughtHorny</defName>
     <workerClass>ThoughtWorker_Hediff</workerClass>
     <hediff>cowears</hediff>
     <stackLimit>1</stackLimit>
     <validWhileDespawned>true</validWhileDespawned>
-	<requiredTraits>
+    <requiredTraits>
       <li>Masochist</li>
-	  <li>Nymphomaniac</li>
-	</requiredTraits>
+      <li>Nymphomaniac</li>
+    </requiredTraits>
     <requiredHediffs>
-        <li>HappySlaveD</li>
+      <li>HappySlaveD</li>
     </requiredHediffs>
     <stages>
       <li>
@@ -652,17 +653,17 @@
     </stages>
   </ThoughtDef>
 
- <ThoughtDef>
+  <ThoughtDef>
     <defName>cowearsThoughtDom</defName>
     <workerClass>ThoughtWorker_Hediff</workerClass>
     <hediff>cowears</hediff>
     <stackLimit>1</stackLimit>
     <validWhileDespawned>true</validWhileDespawned>
-	<requiredTraits>
+    <requiredTraits>
       <li>MasterDom</li>
       <li>Rapist</li>
       <li>MasterDomC</li>
-	</requiredTraits>
+    </requiredTraits>
     <stages>
       <li>
         <label>Not a Cow</label>

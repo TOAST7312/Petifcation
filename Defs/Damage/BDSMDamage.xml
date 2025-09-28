@@ -1,5 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  
+
   <DamageDef>
     <defName>Spank</defName>
     <label>spank</label>
@@ -36,17 +37,17 @@
     <label>spank welt</label>
     <labelNoun>a spanking welt</labelNoun>
     <description>A welt left from aggressively slaping the skin.</description>
-      <displayWound>false</displayWound>
+    <displayWound>false</displayWound>
     <comps>
       <li Class="HediffCompProperties_TendDuration">
         <labelTendedWell>kissed better</labelTendedWell>
         <labelTendedWellInner>kissed better</labelTendedWellInner>
         <labelSolidTendedWell>kissed better</labelSolidTendedWell>
       </li>
-        <li Class="EBSGFramework.HediffCompProperties_GiveOtherHediffPeriodically">
-                <hediff>pet_doggy</hediff>
-                <severity>0.001</severity>
-                <validSeverities>0.5</validSeverities>
+      <li Class="EBSGFramework.HediffCompProperties_GiveOtherHediffPeriodically">
+        <hediff>pet_doggy</hediff>
+        <severity>0.001</severity>
+        <validSeverities>0.5</validSeverities>
                 <multiplySeverityByParentSeverity>False</multiplySeverityByParentSeverity>
                 <interval>30000</interval>
         </li>
@@ -96,20 +97,20 @@
     <label>light welt</label>
     <labelNoun>a spanking welt</labelNoun>
     <description>A welt left from lightly slaping the skin.</description>
-      <displayWound>false</displayWound>
+    <displayWound>false</displayWound>
     <comps>
       <li Class="HediffCompProperties_TendDuration">
         <labelTendedWell>kissed better</labelTendedWell>
         <labelTendedWellInner>kissed better</labelTendedWellInner>
         <labelSolidTendedWell>kissed better</labelSolidTendedWell>
       </li>
-        <li Class="EBSGFramework.HediffCompProperties_GiveOtherHediffPeriodically">
-                <hediff>pet_kitty</hediff>
-                <severity>0.001</severity>
-                <validSeverities>0.5</validSeverities>
-                <multiplySeverityByParentSeverity>False</multiplySeverityByParentSeverity>
-                <interval>30000</interval>
-        </li>
+      <li Class="EBSGFramework.HediffCompProperties_GiveOtherHediffPeriodically">
+        <hediff>pet_kitty</hediff>
+        <severity>0.001</severity>
+        <validSeverities>0.5</validSeverities>
+        <multiplySeverityByParentSeverity>False</multiplySeverityByParentSeverity>
+        <interval>30000</interval>
+      </li>
     </comps>
     <injuryProps>
       <painPerSeverity>0.001</painPerSeverity>
@@ -281,20 +282,20 @@
     <label>cane bruise</label>
     <labelNoun>a cane bruise</labelNoun>
     <description>A large bruise left by a cane.</description>
-      <displayWound>false</displayWound>
+    <displayWound>false</displayWound>
     <comps>
       <li Class="HediffCompProperties_TendDuration">
         <labelTendedWell>bandaged</labelTendedWell>
         <labelTendedWellInner>bandaged</labelTendedWellInner>
         <labelSolidTendedWell>bandaged</labelSolidTendedWell>
       </li>
-        <li Class="EBSGFramework.HediffCompProperties_GiveOtherHediffPeriodically">
-                <hediff>pet_doll</hediff>
-                <severity>0.001</severity>
-                <validSeverities>0.5</validSeverities>
-                <multiplySeverityByParentSeverity>False</multiplySeverityByParentSeverity>
-                <interval>30000</interval>
-        </li>
+      <li Class="EBSGFramework.HediffCompProperties_GiveOtherHediffPeriodically">
+        <hediff>pet_doll</hediff>
+        <severity>0.001</severity>
+        <validSeverities>0.5</validSeverities>
+        <multiplySeverityByParentSeverity>False</multiplySeverityByParentSeverity>
+        <interval>30000</interval>
+      </li>
     </comps>
     <injuryProps>
       <painPerSeverity>0.13</painPerSeverity>

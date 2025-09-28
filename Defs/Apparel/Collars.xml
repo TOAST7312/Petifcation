@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   
   <ThingDef ParentName="HatMakeableBase">
@@ -5,7 +6,7 @@
     <label>doggy collar</label>
     <description>An uncomfortable collar made for human pets. It reminds the wearer of their pet status and psychologically suppresses them, reducing the chance of a pet rebellion.</description>
     <graphicData>
-      <texPath>Apearal/Dog/DogCollars/DogCollar_south</texPath>
+      <texPath>Apparel/Dog/DogCollars/DogCollar_south</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>0.8</drawSize>
     </graphicData>
@@ -32,7 +33,7 @@
       <bodyPartGroups>
         <li>Neck</li>
       </bodyPartGroups>
-      <wornGraphicPath>Apearal/Dog/DogCollars/DogCollar</wornGraphicPath>
+      <wornGraphicPath>Apparel/Dog/DogCollars/DogCollar</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
@@ -54,7 +55,7 @@
         </dataNorth>
       </drawData>
     </apparel>
-        <comps>
+    <comps>
       <li Class="CompProperties_CauseHediff_Apparel">
         <hediff>doggycollared</hediff>
         <part>Neck</part>
@@ -64,7 +65,7 @@
     <recipeMaker>
       <displayPriority>176</displayPriority>
       <researchPrerequisites>
-          <li>PRPuppy</li>
+        <li>PRPuppy</li>
       </researchPrerequisites>
     </recipeMaker>
   </ThingDef>
@@ -74,7 +75,7 @@
     <label>kitty collar</label>
     <description>A cute collar with a little bell for human pets. It reminds the wearer of their pet status and psychologically suppresses them, reducing the chance of a pet rebellion.</description>
     <graphicData>
-      <texPath>Apearal/Cat/CatCollars/CatCollar_south</texPath>
+      <texPath>Apparel/Cat/CatCollars/CatCollar_south</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>0.8</drawSize>
     </graphicData>
@@ -101,7 +102,7 @@
       <bodyPartGroups>
         <li>Neck</li>
       </bodyPartGroups>
-      <wornGraphicPath>Apearal/Cat/CatCollars/CatCollar</wornGraphicPath>
+      <wornGraphicPath>Apparel/Cat/CatCollars/CatCollar</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
@@ -123,7 +124,7 @@
         </dataNorth>
       </drawData>
     </apparel>
-        <comps>
+    <comps>
       <li Class="CompProperties_CauseHediff_Apparel">
         <hediff>catcollared</hediff>
         <part>Neck</part>
@@ -133,7 +134,7 @@
     <recipeMaker>
       <displayPriority>177</displayPriority>
       <researchPrerequisites>
-          <li>PRKitten</li>
+        <li>PRKitten</li>
       </researchPrerequisites>
     </recipeMaker>
   </ThingDef>
@@ -143,7 +144,7 @@
     <label>cow collar</label>
     <description>A large collar with a cow bell for human pets. It reminds the wearer of their pet status and psychologically suppresses them, reducing the chance of a pet rebellion.</description>
     <graphicData>
-      <texPath>Apearal/Cow/CowCollar/CowCollar_south</texPath>
+      <texPath>Apparel/Cow/CowCollar/CowCollar_south</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>0.8</drawSize>
     </graphicData>
@@ -170,7 +171,7 @@
       <bodyPartGroups>
         <li>Neck</li>
       </bodyPartGroups>
-      <wornGraphicPath>Apearal/Cow/CowCollar/CowCollar</wornGraphicPath>
+      <wornGraphicPath>Apparel/Cow/CowCollar/CowCollar</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
@@ -192,7 +193,7 @@
         </dataNorth>
       </drawData>
     </apparel>
-        <comps>
+    <comps>
       <li Class="CompProperties_CauseHediff_Apparel">
         <hediff>cowcollared</hediff>
         <part>Neck</part>
@@ -202,7 +203,7 @@
     <recipeMaker>
       <displayPriority>178</displayPriority>
       <researchPrerequisites>
-          <li>PRCow</li>
+        <li>PRCow</li>
       </researchPrerequisites>
     </recipeMaker>
   </ThingDef>
@@ -212,7 +213,7 @@
     <label>doll tag</label>
     <description>A small collar with an id tag number for tracking sex dolls. It objectifies the wearer and psychologically suppresses them, reducing the chance of a slave rebellion.</description>
     <graphicData>
-      <texPath>Apearal/Doll/DollCollar/DollCollar_south</texPath>
+      <texPath>Apparel/Doll/DollCollar/DollCollar_south</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>0.8</drawSize>
     </graphicData>
@@ -238,7 +239,7 @@
       <bodyPartGroups>
         <li>Neck</li>
       </bodyPartGroups>
-      <wornGraphicPath>Apearal/Doll/DollCollar/DollCollar</wornGraphicPath>
+      <wornGraphicPath>Apparel/Doll/DollCollar/DollCollar</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
@@ -260,7 +261,7 @@
         </dataNorth>
       </drawData>
     </apparel>
-        <comps>
+    <comps>
       <li Class="CompProperties_CauseHediff_Apparel">
         <hediff>dollcollared</hediff>
         <part>Neck</part>
@@ -268,9 +269,9 @@
     </comps>
     <colorGenerator Class="ColorGenerator_StandardApparel" />
     <recipeMaker>
-      <displayPriority>178</displayPriority>
+      <displayPriority>179</displayPriority>
       <researchPrerequisites>
-          <li>PRDoll</li>
+        <li>PRDoll</li>
       </researchPrerequisites>
     </recipeMaker>
   </ThingDef>

@@ -1,6 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-      <ThingDef ParentName="BaseMeleeWeapon_Blunt">
+  <ThingDef ParentName="BaseMeleeWeapon_Blunt">
     <defName>BDSM_Paddle</defName>
     <label>paddle</label>
     <description>A wooden paddle for spanking disobediant puppies. (increases puppy training).</description>

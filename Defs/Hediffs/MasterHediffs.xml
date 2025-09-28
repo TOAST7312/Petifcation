@@ -1,6 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-        <HediffDef>
+  <HediffDef>
     <defName>seeingpuppy</defName>
     <label>seeing puppy</label>
     <description>This puppy is happy and enjoys it's new life. Nearby masters will be happy to see it.</description>
@@ -23,10 +24,10 @@
     <isBad>false</isBad>
   </HediffDef>
 
-        <HediffDef>
+  <HediffDef>
     <defName>seeingcat</defName>
     <label>seeing kitty</label>
-    <description>This puppy is happy and enjoys it's new life. Nearby masters will be happy to see it.</description>
+    <description>This kitty is happy and enjoys it's new life. Nearby masters will be happy to see it.</description>
     <hediffClass>HediffWithComps</hediffClass>
     <minSeverity>0.2</minSeverity>
     <maxSeverity>1</maxSeverity>
@@ -46,10 +47,10 @@
     <isBad>false</isBad>
   </HediffDef>
 
-        <HediffDef>
+  <HediffDef>
     <defName>seeingcow</defName>
     <label>seeing cow</label>
-    <description>This puppy is happy and enjoys it's new life. Nearby masters will be happy to see it.</description>
+    <description>This cow is happy and enjoys it's new life. Nearby masters will be happy to see it.</description>
     <hediffClass>HediffWithComps</hediffClass>
     <minSeverity>0.2</minSeverity>
     <maxSeverity>1</maxSeverity>
@@ -69,10 +70,10 @@
     <isBad>false</isBad>
   </HediffDef>
 
-        <HediffDef>
+  <HediffDef>
     <defName>seeingdoll</defName>
     <label>seeing doll</label>
-    <description>This puppy is happy and enjoys it's new life. Nearby masters will be happy to see it.</description>
+    <description>This doll is happy and enjoys it's new life. Nearby masters will be happy to see it.</description>
     <hediffClass>HediffWithComps</hediffClass>
     <minSeverity>0.2</minSeverity>
     <maxSeverity>1</maxSeverity>

@@ -1,5 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  
+
   <ThingDef ParentName="OrganicProductBase">
     <defName>KibbleP</defName>
     <label>Dog Food</label>
@@ -26,11 +27,11 @@
       <ingestEffect>EatVegetarian</ingestEffect>
       <ingestSound>RawVegetable_Eat</ingestSound>
     <outcomeDoers>
-    	  <li Class="IngestionOutcomeDoer_GiveHediff">
-						<hediffDef>pet_doggy</hediffDef>
-						<severity>0.01</severity>
-						<divideByBodySize>true</divideByBodySize>
-	   </li>
+      <li Class="IngestionOutcomeDoer_GiveHediff">
+        <hediffDef>pet_doggy</hediffDef>
+        <severity>0.01</severity>
+        <divideByBodySize>true</divideByBodySize>
+      </li>
     </outcomeDoers>
     </ingestible>
     <comps>
