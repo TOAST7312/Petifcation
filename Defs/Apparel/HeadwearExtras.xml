@@ -135,7 +135,7 @@
     <stages>
       <li>
         <label>Stupid Ears</label>
-        <description>I can't belieave I'm wearing these stupid things.</description>
+        <description>I can't believe I'm wearing these stupid things.</description>
         <baseMoodEffect>-4</baseMoodEffect>
       </li>
     </stages>
@@ -144,7 +144,7 @@
   <ThingDef ParentName="HatMakeableBase">
     <defName>Apparel_DogMask</defName>
     <label>dog mask</label>
-    <description>A flexible latex mask worn over the face to give the wearer the apparence of a dog.dy.\n\n Improves puppy training.</description>
+    <description>A flexible latex mask worn over the face to give the wearer the appearance of a dog.\n\n Improves puppy training.</description>
     <possessionCount>1</possessionCount>
     <graphicData>
       <texPath>Apparel/Dog/DogMask/DogMask_east</texPath>
@@ -210,7 +210,7 @@
   <ThingDef ParentName="HatMakeableBase">
     <defName>Apparel_DogMaskF</defName>
     <label>dog mask F</label>
-    <description>A flexible latex mask worn over the face to give the wearer the apparence of a dog.\n\n Improves puppy training.</description>
+    <description>A flexible latex mask worn over the face to give the wearer the appearance of a dog.\n\n Improves puppy training.</description>
     <possessionCount>1</possessionCount>
     <graphicData>
       <texPath>Apparel/Dog/DogMaskF/DogMaskF_east</texPath>

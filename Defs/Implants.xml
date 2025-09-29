@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Pet Training Reinforcement Implants -->
+
+  <!-- Puppy Reinforcement Implant (Brain) -->
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>PetReinforcementPuppyBrain</defName>
+    <label>puppy reinforcement implant</label>
+    <labelNoun>a puppy reinforcement implant</labelNoun>
+    <description>An advanced neural implant that reinforces puppy training by stimulating reward centers in the brain and suppressing resistance. It provides constant positive reinforcement to maintain puppy behavior patterns.</description>
+    <descriptionHyperlinks>
+      <ThingDef>PetReinforcementPuppyBrain</ThingDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>PetReinforcementPuppyBrain</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.15</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <MentalBreakThreshold>0.2</MentalBreakThreshold>
+          <Vulnerability>0.15</Vulnerability>
+          <SexFrequency>0.25</SexFrequency>
+          <Fertility>0.3</Fertility>
+        </statOffsets>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.95</setMax>
+          </li>
+          <li>
+            <capacity>Talking</capacity>
+            <postFactor>0.8</postFactor>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <ThingDef ParentName="BodyPartBionicBase">
+    <defName>PetReinforcementPuppyBrain</defName>
+    <label>puppy reinforcement implant</label>
+    <description>A sophisticated neural implant designed to reinforce puppy training behaviors. It uses micro-stimulators to reward compliant behavior and suppress resistance, making the subject more receptive to puppy training methods.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>InstallPetReinforcementPuppyBrain</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>12</Plasteel>
+      <ComponentSpacer>3</ComponentSpacer>
+      <Gold>5</Gold>
+    </costList>
+    <thingSetMakerTags>
+      <li>RewardStandardHighFreq</li>
+    </thingSetMakerTags>
+    <statBases>
+      <Mass>0.5</Mass>
+    </statBases>
+  </ThingDef>
+
+  <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+    <defName>InstallPetReinforcementPuppyBrain</defName>
+    <label>install puppy reinforcement implant</label>
+    <description>Install a puppy reinforcement implant in the brain.</description>
+    <descriptionHyperlinks>
+      <ThingDef>PetReinforcementPuppyBrain</ThingDef>
+      <HediffDef>PetReinforcementPuppyBrain</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Installing puppy reinforcement implant.</jobString>
+    <researchPrerequisite>Bionics</researchPrerequisite>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <workSkillLearnFactor>0.5</workSkillLearnFactor>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Recipe_Smith</soundWorking>
+    <unfinishedThingDef>UnfinishedHealthItemBionic</unfinishedThingDef>
+    <skillRequirements>
+      <Crafting>8</Crafting>
+    </skillRequirements>
+    <recipeUsers>
+      <li>FabricationBench</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PetReinforcementPuppyBrain</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>PetReinforcementPuppyBrain</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Brain</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>PetReinforcementPuppyBrain</addsHediff>
+  </RecipeDef>
+
+  <!-- Kitty Reinforcement Implant (Brain) -->
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>PetReinforcementKittyBrain</defName>
+    <label>kitty reinforcement implant</label>
+    <labelNoun>a kitty reinforcement implant</labelNoun>
+    <description>An advanced neural implant that reinforces kitty training by enhancing sensory pleasure responses and reducing inhibitions. It encourages graceful, playful behavior patterns typical of trained kitties.</description>
+    <descriptionHyperlinks>
+      <ThingDef>PetReinforcementKittyBrain</ThingDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>PetReinforcementKittyBrain</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.15</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <MentalBreakThreshold>0.15</MentalBreakThreshold>
+          <Vulnerability>0.2</Vulnerability>
+          <SexFrequency>0.4</SexFrequency>
+          <PawnBeauty>0.3</PawnBeauty>
+        </statOffsets>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.96</setMax>
+          </li>
+          <li>
+            <capacity>Talking</capacity>
+            <postFactor>0.85</postFactor>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <ThingDef ParentName="BodyPartBionicBase">
+    <defName>PetReinforcementKittyBrain</defName>
+    <label>kitty reinforcement implant</label>
+    <description>A sophisticated neural implant designed to reinforce kitty training behaviors. It enhances sensory pleasure responses and reduces social inhibitions, encouraging the graceful and playful behavior patterns of trained kitties.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>InstallPetReinforcementKittyBrain</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>12</Plasteel>
+      <ComponentSpacer>3</ComponentSpacer>
+      <Gold>5</Gold>
+    </costList>
+    <thingSetMakerTags>
+      <li>RewardStandardHighFreq</li>
+    </thingSetMakerTags>
+    <statBases>
+      <Mass>0.5</Mass>
+    </statBases>
+  </ThingDef>
+
+  <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+    <defName>InstallPetReinforcementKittyBrain</defName>
+    <label>install kitty reinforcement implant</label>
+    <description>Install a kitty reinforcement implant in the brain.</description>
+    <descriptionHyperlinks>
+      <ThingDef>PetReinforcementKittyBrain</ThingDef>
+      <HediffDef>PetReinforcementKittyBrain</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Installing kitty reinforcement implant.</jobString>
+    <researchPrerequisite>Bionics</researchPrerequisite>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <workSkillLearnFactor>0.5</workSkillLearnFactor>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Recipe_Smith</soundWorking>
+    <unfinishedThingDef>UnfinishedHealthItemBionic</unfinishedThingDef>
+    <skillRequirements>
+      <Crafting>8</Crafting>
+    </skillRequirements>
+    <recipeUsers>
+      <li>FabricationBench</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PetReinforcementKittyBrain</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>PetReinforcementKittyBrain</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Brain</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>PetReinforcementKittyBrain</addsHediff>
+  </RecipeDef>
+
+  <!-- Cow Reinforcement Implant (Torso) -->
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>PetReinforcementCowTorso</defName>
+    <label>cow reinforcement implant</label>
+    <labelNoun>a cow reinforcement implant</labelNoun>
+    <description>An advanced torso implant that reinforces cow training by enhancing productivity hormones and reducing mental resistance. It promotes docile, productive behavior patterns suitable for trained cows.</description>
+    <descriptionHyperlinks>
+      <ThingDef>PetReinforcementCowTorso</ThingDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>PetReinforcementCowTorso</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.2</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <MentalBreakThreshold>0.25</MentalBreakThreshold>
+          <Vulnerability>0.3</Vulnerability>
+          <SexFrequency>0.2</SexFrequency>
+          <Fertility>0.4</Fertility>
+        </statOffsets>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.92</setMax>
+          </li>
+          <li>
+            <capacity>Talking</capacity>
+            <postFactor>0.75</postFactor>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <ThingDef ParentName="BodyPartBionicBase">
+    <defName>PetReinforcementCowTorso</defName>
+    <label>cow reinforcement implant</label>
+    <description>A sophisticated torso implant designed to reinforce cow training behaviors. It enhances productivity hormones and reduces mental resistance, promoting the docile and productive behavior patterns of trained cows.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>InstallPetReinforcementCowTorso</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>15</Plasteel>
+      <ComponentSpacer>4</ComponentSpacer>
+      <Gold>8</Gold>
+    </costList>
+    <thingSetMakerTags>
+      <li>RewardStandardHighFreq</li>
+    </thingSetMakerTags>
+    <statBases>
+      <Mass>2</Mass>
+    </statBases>
+  </ThingDef>
+
+  <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+    <defName>InstallPetReinforcementCowTorso</defName>
+    <label>install cow reinforcement implant</label>
+    <description>Install a cow reinforcement implant in the torso.</description>
+    <descriptionHyperlinks>
+      <ThingDef>PetReinforcementCowTorso</ThingDef>
+      <HediffDef>PetReinforcementCowTorso</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Installing cow reinforcement implant.</jobString>
+    <researchPrerequisite>Bionics</researchPrerequisite>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <workSkillLearnFactor>0.5</workSkillLearnFactor>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Recipe_Smith</soundWorking>
+    <unfinishedThingDef>UnfinishedHealthItemBionic</unfinishedThingDef>
+    <skillRequirements>
+      <Crafting>8</Crafting>
+    </skillRequirements>
+    <recipeUsers>
+      <li>FabricationBench</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PetReinforcementCowTorso</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>PetReinforcementCowTorso</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Torso</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>PetReinforcementCowTorso</addsHediff>
+  </RecipeDef>
+
+  <!-- Doll Reinforcement Implant (Brain) -->
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>PetReinforcementDollBrain</defName>
+    <label>doll reinforcement implant</label>
+    <labelNoun>a doll reinforcement implant</labelNoun>
+    <description>An advanced neural implant that reinforces doll training by suppressing higher brain functions and enhancing pain tolerance. It creates the empty, compliant mental state required for perfect doll behavior.</description>
+    <descriptionHyperlinks>
+      <ThingDef>PetReinforcementDollBrain</ThingDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>PetReinforcementDollBrain</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.1</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <MentalBreakThreshold>0.3</MentalBreakThreshold>
+          <Vulnerability>0.4</Vulnerability>
+          <SexFrequency>0.3</SexFrequency>
+        </statOffsets>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.85</setMax>
+          </li>
+          <li>
+            <capacity>Talking</capacity>
+            <postFactor>0.6</postFactor>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <ThingDef ParentName="BodyPartBionicBase">
+    <defName>PetReinforcementDollBrain</defName>
+    <label>doll reinforcement implant</label>
+    <description>A sophisticated neural implant designed to reinforce doll training behaviors. It suppresses higher brain functions while enhancing pain tolerance, creating the empty and compliant mental state required for perfect doll behavior.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>InstallPetReinforcementDollBrain</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>18</Plasteel>
+      <ComponentSpacer>5</ComponentSpacer>
+      <Gold>10</Gold>
+    </costList>
+    <thingSetMakerTags>
+      <li>RewardStandardHighFreq</li>
+    </thingSetMakerTags>
+    <statBases>
+      <Mass>0.8</Mass>
+    </statBases>
+  </ThingDef>
+
+  <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+    <defName>InstallPetReinforcementDollBrain</defName>
+    <label>install doll reinforcement implant</label>
+    <description>Install a doll reinforcement implant in the brain.</description>
+    <descriptionHyperlinks>
+      <ThingDef>PetReinforcementDollBrain</ThingDef>
+      <HediffDef>PetReinforcementDollBrain</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Installing doll reinforcement implant.</jobString>
+    <researchPrerequisite>Bionics</researchPrerequisite>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <workSkillLearnFactor>0.5</workSkillLearnFactor>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Recipe_Smith</soundWorking>
+    <unfinishedThingDef>UnfinishedHealthItemBionic</unfinishedThingDef>
+    <skillRequirements>
+      <Crafting>8</Crafting>
+    </skillRequirements>
+    <recipeUsers>
+      <li>FabricationBench</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PetReinforcementDollBrain</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>PetReinforcementDollBrain</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Brain</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>PetReinforcementDollBrain</addsHediff>
+  </RecipeDef>
+
+</Defs>

@@ -12,47 +12,45 @@
 <ResearchProjectDef>
     <defName>PRPuppy</defName>
     <label>Basic Puppy Training</label>
-    <description>Develop basic techniques for pet puppy training.</description>
+    <description>Develop basic techniques for pet puppy training and discipline.</description>
     <tab>PetPlay</tab>
-    <baseCost>500</baseCost>
-    <techLevel>Industrial</techLevel>
-    <researchViewX>1.50</researchViewX>
-    <researchViewY>0.10</researchViewY>
+    <baseCost>400</baseCost>
+    <techLevel>Medieval</techLevel>
+    <researchViewX>0.0</researchViewX>
+    <researchViewY>0.0</researchViewY>
     </ResearchProjectDef>
-
 
 <ResearchProjectDef>
     <defName>PRKitten</defName>
     <label>Basic Kitty Training</label>
-    <description>Develop basic techniques for pet kitty training.</description>
+    <description>Develop basic techniques for pet kitty training and care.</description>
     <tab>PetPlay</tab>
-    <baseCost>500</baseCost>
-    <techLevel>Industrial</techLevel>
-    <researchViewX>1.5</researchViewX>
-    <researchViewY>1.10</researchViewY>
+    <baseCost>450</baseCost>
+    <techLevel>Medieval</techLevel>
+    <researchViewX>2.0</researchViewX>
+    <researchViewY>0.0</researchViewY>
     </ResearchProjectDef>
-  
 
-    <ResearchProjectDef>
+<ResearchProjectDef>
     <defName>PRCow</defName>
     <label>Basic Cow Training</label>
-    <description>Develop advanced techniques for pet cow training.</description>
+    <description>Develop advanced techniques for pet cow training and husbandry.</description>
     <tab>PetPlay</tab>
-    <baseCost>500</baseCost>
+    <baseCost>600</baseCost>
     <techLevel>Industrial</techLevel>
-    <researchViewX>1.50</researchViewX>
-    <researchViewY>2.10</researchViewY>
+    <researchViewX>1.0</researchViewX>
+    <researchViewY>1.5</researchViewY>
     </ResearchProjectDef>
 
-    <ResearchProjectDef>
+<ResearchProjectDef>
     <defName>PRDoll</defName>
     <label>Basic Doll Training</label>
-    <description>Develop basic techniques for sex doll training.</description>
+    <description>Develop basic techniques for sex doll training and modification.</description>
     <tab>PetPlay</tab>
-    <baseCost>500</baseCost>
+    <baseCost>800</baseCost>
     <techLevel>Industrial</techLevel>
-    <researchViewX>1.50</researchViewX>
-    <researchViewY>4.10</researchViewY>
+    <researchViewX>1.0</researchViewX>
+    <researchViewY>3.0</researchViewY>
     </ResearchProjectDef>
 
 </Defs>

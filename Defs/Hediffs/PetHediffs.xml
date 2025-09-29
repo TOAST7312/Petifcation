@@ -199,7 +199,7 @@
   <HediffDef>
     <defName>pet_kitty</defName>
     <label>catification training</label>
-    <description>Catification training renders a pawn sassy, sweet, and fuckable. Can be renforced with diet, apparel, or implants. Will fade with time if not reinforced. Primary stat is Sex Frequency, not as submisive or pain tolerant as other pets.</description>
+    <description>Catification training renders a pawn sassy, sweet, and fuckable. Can be reinforced with diet, apparel, or implants. Will fade with time if not reinforced. Primary stat is Sex Frequency, not as submisive or pain tolerant as other pets.</description>
     <hediffClass>HediffWithComps</hediffClass>
     <maxSeverity>1.5</maxSeverity>
     <isBad>false</isBad>

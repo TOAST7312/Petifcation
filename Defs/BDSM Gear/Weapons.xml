@@ -4,18 +4,18 @@
   <ThingDef ParentName="BaseMeleeWeapon_Blunt">
     <defName>BDSM_Paddle</defName>
     <label>paddle</label>
-    <description>A wooden paddle for spanking disobediant puppies. (increases puppy training).</description>
+    <description>A wooden paddle for spanking disobedient puppies. (increases puppy training).</description>
     <graphicData>
       <texPath>Weapons/Paddle</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <uiIconScale>1.1</uiIconScale>
-    <techLevel>Neolithic</techLevel>
+    <techLevel>Industrial</techLevel>
     <weaponTags>
-      <li>NeolithicMeleeBasic</li>
+      <li>IndustrialMeleeBasic</li>
     </weaponTags>
     <weaponClasses>
-      <li>Neolithic</li>
+      <li>Industrial</li>
     </weaponClasses>
     <costStuffCount>30</costStuffCount>
     <statBases>
