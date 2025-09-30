@@ -149,6 +149,7 @@
       <drawSize>0.8</drawSize>
     </graphicData>
     <costStuffCount>25</costStuffCount>
+    <techLevel>Industrial</techLevel>
     <stuffCategories>
       <li>Metallic</li>
       <li>Leathery</li>
@@ -218,6 +219,7 @@
       <drawSize>0.8</drawSize>
     </graphicData>
     <costStuffCount>25</costStuffCount>
+    <techLevel>Industrial</techLevel>
     <stuffCategories>
       <li>Leathery</li>
     </stuffCategories>

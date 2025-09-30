@@ -96,6 +96,7 @@
     <graphicData>
       <texPath>Food/CowFood</texPath>
     </graphicData>
+    <techLevel>Industrial</techLevel>
     <socialPropernessMatters>true</socialPropernessMatters>
     <statBases>
       <MarketValue>1.1</MarketValue>

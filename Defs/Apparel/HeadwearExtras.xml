@@ -379,6 +379,7 @@
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>0.8</drawSize>
     </graphicData>
+    <techLevel>Industrial</techLevel>
     <statBases>
       <MaxHitPoints>80</MaxHitPoints>
       <WorkToMake>6000</WorkToMake>
@@ -544,6 +545,7 @@
       <drawSize>(0.9, 0.9)</drawSize>
     </graphicData>
     <costStuffCount>20</costStuffCount>
+    <techLevel>Industrial</techLevel>
     <uiIconScale>1.25</uiIconScale>
     <statBases>
       <WorkToMake>1800</WorkToMake>

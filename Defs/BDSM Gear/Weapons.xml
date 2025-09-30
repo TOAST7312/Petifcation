@@ -15,7 +15,7 @@
       <li>IndustrialMeleeBasic</li>
     </weaponTags>
     <weaponClasses>
-      <li>Industrial</li>
+      <li>MeleeBlunt</li>
     </weaponClasses>
     <costStuffCount>30</costStuffCount>
     <statBases>
@@ -58,12 +58,12 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <uiIconScale>1.1</uiIconScale>
-    <techLevel>Neolithic</techLevel>
+    <techLevel>Industrial</techLevel>
     <weaponTags>
-      <li>NeolithicMeleeBasic</li>
+      <li>IndustrialMeleeBasic</li>
     </weaponTags>
     <weaponClasses>
-      <li>Neolithic</li>
+      <li>MeleeBlunt</li>
     </weaponClasses>
     <costStuffCount>30</costStuffCount>
     <statBases>
@@ -106,12 +106,12 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <uiIconScale>1.1</uiIconScale>
-    <techLevel>Neolithic</techLevel>
+    <techLevel>Industrial</techLevel>
     <weaponTags>
-      <li>NeolithicMeleeBasic</li>
+      <li>IndustrialMeleeBasic</li>
     </weaponTags>
     <weaponClasses>
-      <li>Neolithic</li>
+      <li>MeleeBlunt</li>
     </weaponClasses>
     <costStuffCount>30</costStuffCount>
     <statBases>
@@ -154,12 +154,12 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <uiIconScale>1.1</uiIconScale>
-    <techLevel>Neolithic</techLevel>
+    <techLevel>Industrial</techLevel>
     <weaponTags>
-      <li>NeolithicMeleeBasic</li>
+      <li>IndustrialMeleeBasic</li>
     </weaponTags>
     <weaponClasses>
-      <li>Neolithic</li>
+      <li>MeleeBlunt</li>
     </weaponClasses>
     <costStuffCount>30</costStuffCount>
     <statBases>
@@ -202,12 +202,12 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <uiIconScale>1.1</uiIconScale>
-    <techLevel>Neolithic</techLevel>
+    <techLevel>Industrial</techLevel>
     <weaponTags>
-      <li>NeolithicMeleeBasic</li>
+      <li>IndustrialMeleeBasic</li>
     </weaponTags>
     <weaponClasses>
-      <li>Neolithic</li>
+      <li>MeleeBlunt</li>
     </weaponClasses>
     <costStuffCount>30</costStuffCount>
     <statBases>
