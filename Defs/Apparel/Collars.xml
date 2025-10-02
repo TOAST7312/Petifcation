@@ -4,7 +4,7 @@
   <ThingDef ParentName="HatMakeableBase">
     <defName>Apparel_PuppyCollar</defName>
     <label>doggy collar</label>
-    <description>An uncomfortable collar made for human pets. It reminds the wearer of their pet status and psychologically suppresses them, reducing the chance of a pet rebellion.</description>
+    <description>A restrictive collar designed to mark ownership and submission. Its tight grip reinforces 'puppy' training and the wearer's servile status.</description>
     <graphicData>
       <texPath>Apparel/Dog/DogCollars/DogCollar_south</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -73,7 +73,7 @@
     <ThingDef ParentName="HatMakeableBase">
     <defName>Apparel_kittyCollar</defName>
     <label>kitty collar</label>
-    <description>A cute collar with a little bell for human pets. It reminds the wearer of their pet status and psychologically suppresses them, reducing the chance of a pet rebellion.</description>
+    <description>A decorative collar with an integrated bell that jingles with every movement. Designed to reinforce 'kitty' training and remind the wearer of their pet status through constant auditory feedback.</description>
     <graphicData>
       <texPath>Apparel/Cat/CatCollars/CatCollar_south</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -142,7 +142,7 @@
       <ThingDef ParentName="HatMakeableBase">
     <defName>Apparel_cowCollar</defName>
     <label>cow collar</label>
-    <description>A large collar with a cow bell for human pets. It reminds the wearer of their pet status and psychologically suppresses them, reducing the chance of a pet rebellion.</description>
+    <description>A heavy-duty collar with an integrated cowbell that clangs loudly with every step. Designed to reinforce 'cow' training and objectify the wearer, reinforcing their status as livestock.</description>
     <graphicData>
       <texPath>Apparel/Cow/CowCollar/CowCollar_south</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -212,7 +212,7 @@
         <ThingDef ParentName="HatMakeableBase">
     <defName>Apparel_dollcollar</defName>
     <label>doll tag</label>
-    <description>A small collar with an id tag number for tracking sex dolls. It objectifies the wearer and psychologically suppresses them, reducing the chance of a slave rebellion.</description>
+    <description>A minimalist collar with an identification number tag. Designed to reinforce 'doll' training and objectify the wearer, reducing them to a numbered possession.</description>
     <graphicData>
       <texPath>Apparel/Doll/DollCollar/DollCollar_south</texPath>
       <graphicClass>Graphic_Single</graphicClass>

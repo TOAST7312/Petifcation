@@ -36,7 +36,7 @@
     <defName>BDSMBruise</defName>
     <label>spank welt</label>
     <labelNoun>a spanking welt</labelNoun>
-    <description>A welt left from aggressively slaping the skin.</description>
+    <description>A welt left from corporal punishment with a paddle.</description>
     <displayWound>false</displayWound>
     <comps>
       <li Class="HediffCompProperties_TendDuration">
@@ -96,7 +96,7 @@
     <defName>BDSMSlightBruise</defName>
     <label>light welt</label>
     <labelNoun>a spanking welt</labelNoun>
-    <description>A welt left from lightly slaping the skin.</description>
+    <description>A welt left from light corporal punishment with a padded paddle.</description>
     <displayWound>false</displayWound>
     <comps>
       <li Class="HediffCompProperties_TendDuration">
@@ -155,7 +155,7 @@
     <defName>BDSMCropBruise</defName>
     <label>light lash</label>
     <labelNoun>a lash welt</labelNoun>
-    <description>A welt left from spanking with a riding crop.</description>
+    <description>A welt left from corporal punishment with a riding crop.</description>
       <displayWound>false</displayWound>
     <comps>
       <li Class="HediffCompProperties_TendDuration">
@@ -302,7 +302,7 @@
       <averagePainPerSeverityPermanent>0.00925</averagePainPerSeverityPermanent>
       <canMerge>false</canMerge>
       <bleedRate>0.005</bleedRate>
-      <destroyedLabel>Beat off</destroyedLabel>
+      <destroyedLabel>Disciplined</destroyedLabel>
     </injuryProps>
   </HediffDef>
 

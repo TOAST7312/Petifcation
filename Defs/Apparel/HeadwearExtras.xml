@@ -4,7 +4,7 @@
   <ThingDef ParentName="CowboyHat">
     <defName>Apparel_katears</defName>
     <label>cat ears</label>
-    <description>A nice-looking set of cat ears. Improves kitten training.</description>
+    <description>A decorative headpiece designed to enhance the wearer's feline identity. The cat ears reinforce 'kitty' training and pet status through humiliation and roleplay.</description>
     <possessionCount>1</possessionCount>
     <graphicData>
       <texPath>Apparel/Cat/CatEars/CatEarHat_north</texPath>
@@ -51,7 +51,7 @@
   <HediffDef>
     <defName>kittenears</defName>
     <label>cat ears</label>
-    <description>The cat ears reminds the pet of their place, while also making them super cute. :3</description>
+    <description>The cat ears reinforce 'kitty' training and pet identity through continuous humiliation. The aesthetic modification enhances the wearer's role as a submissive pet.</description>
     <hediffClass>HediffWithComps</hediffClass>
     <stages>
       <li>
@@ -144,7 +144,7 @@
   <ThingDef ParentName="HatMakeableBase">
     <defName>Apparel_DogMask</defName>
     <label>dog mask</label>
-    <description>A flexible latex mask worn over the face to give the wearer the appearance of a dog.\n\n Improves puppy training.</description>
+    <description>A flexible latex mask designed to transform the wearer into a canine appearance. The mask reinforces 'puppy' training and pet identity through humiliation and objectification.</description>
     <possessionCount>1</possessionCount>
     <graphicData>
       <texPath>Apparel/Dog/DogMask/DogMask_east</texPath>
@@ -210,7 +210,7 @@
   <ThingDef ParentName="HatMakeableBase">
     <defName>Apparel_DogMaskF</defName>
     <label>dog mask F</label>
-    <description>A flexible latex mask worn over the face to give the wearer the appearance of a dog.\n\n Improves puppy training.</description>
+    <description>A flexible latex mask designed to transform the wearer into a canine appearance. The mask reinforces puppy training and pet identity through humiliation and objectification.</description>
     <possessionCount>1</possessionCount>
     <graphicData>
       <texPath>Apparel/Dog/DogMaskF/DogMaskF_east</texPath>
@@ -372,7 +372,7 @@
   <ThingDef ParentName="HatMakeableBase">
     <defName>Apparel_DollMask</defName>
     <label>doll mask</label>
-    <description>A flexible latex mask worn over the face to block sight. Includes a tube inserted down the wearers throat, preventing speaking and eating normally.\n\n Improves doll training.</description>
+    <description>A restrictive latex mask with an integrated feeding tube. Designed to reinforce 'doll' training and objectify the wearer, forcing them to eat and breathe through the tube like a doll.</description>
     <possessionCount>1</possessionCount>
     <graphicData>
       <texPath>Apparel/Doll/DollMask/DollMask_south</texPath>
@@ -538,7 +538,7 @@
   <ThingDef ParentName="CowboyHat">
     <defName>Apparel_cowears</defName>
     <label>cow ears</label>
-    <description>A nice-looking set of cow ears. Improves cow training.</description>
+    <description>A decorative headpiece designed to enhance the wearer's bovine identity. The cow ears reinforce 'cow' training and livestock status through humiliation and objectification.</description>
     <possessionCount>1</possessionCount>
     <graphicData>
       <texPath>Apparel/Cow/CowEars/CowEars_north</texPath>
@@ -585,7 +585,7 @@
     <HediffDef>
     <defName>cowears</defName>
     <label>cow ears</label>
-    <description>The cow ears make the dumb cow look some how even dumber. May eventually cause a permanent shift in personality.</description>
+    <description>The cow ears reinforce 'cow' training and livestock identity through continuous humiliation. The aesthetic modification may lead to permanent psychological restructuring.</description>
     <hediffClass>HediffWithComps</hediffClass>
     <stages>
       <li>
