@@ -15,7 +15,7 @@
     <uiIconScale>1.1</uiIconScale>
     <techLevel>Industrial</techLevel>
     <weaponTags>
-      <li>IndustrialMeleeBasic</li>
+      <li>BDSMTool</li>
     </weaponTags>
     <weaponClasses>
       <li>MeleeBlunt</li>
@@ -66,7 +66,7 @@
     <uiIconScale>1.1</uiIconScale>
     <techLevel>Industrial</techLevel>
     <weaponTags>
-      <li>IndustrialMeleeBasic</li>
+      <li>BDSMTool</li>
     </weaponTags>
     <weaponClasses>
       <li>MeleeBlunt</li>
@@ -117,7 +117,7 @@
     <uiIconScale>1.1</uiIconScale>
     <techLevel>Industrial</techLevel>
     <weaponTags>
-      <li>IndustrialMeleeBasic</li>
+      <li>BDSMTool</li>
     </weaponTags>
     <weaponClasses>
       <li>MeleeBlunt</li>
@@ -168,7 +168,7 @@
     <uiIconScale>1.1</uiIconScale>
     <techLevel>Industrial</techLevel>
     <weaponTags>
-      <li>IndustrialMeleeBasic</li>
+      <li>BDSMTool</li>
     </weaponTags>
     <weaponClasses>
       <li>MeleeBlunt</li>
@@ -219,7 +219,7 @@
     <uiIconScale>1.1</uiIconScale>
     <techLevel>Industrial</techLevel>
     <weaponTags>
-      <li>IndustrialMeleeBasic</li>
+      <li>BDSMTool</li>
     </weaponTags>
     <weaponClasses>
       <li>MeleeBlunt</li>

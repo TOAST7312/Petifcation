@@ -42,7 +42,7 @@
       </li>
     </comps>
     <tradeTags>
-      <li>BasicClothing</li>
+      <li>BDSMApparel</li>
     </tradeTags>
     <recipeMaker>
       <researchPrerequisites>
@@ -193,7 +193,7 @@
       </bodyPartGroups>
       <wornGraphicPath>Apparel/Dog/DogMask/DogMask</wornGraphicPath>
       <tags>
-        <li>IndustrialBasic</li>
+        <li>BDSMApparel</li>
       </tags>
       <forceEyesVisibleForRotations>
         <li>1</li>
@@ -262,7 +262,7 @@
       </bodyPartGroups>
       <wornGraphicPath>Apparel/Dog/DogMaskF/DogMaskF</wornGraphicPath>
       <tags>
-        <li>IndustrialBasic</li>
+        <li>BDSMApparel</li>
       </tags>
       <forceEyesVisibleForRotations>
         <li>1</li>
@@ -432,7 +432,7 @@
         <li>Overhead</li>
       </layers>
       <tags>
-        <li>IndustrialBasic</li>
+        <li>BDSMApparel</li>
       </tags>
     </apparel>
     <comps>
@@ -588,7 +588,7 @@
       </li>
     </comps>
     <tradeTags>
-      <li>BasicClothing</li>
+      <li>BDSMApparel</li>
     </tradeTags>
     <recipeMaker>
       <researchPrerequisites>

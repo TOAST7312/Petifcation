@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <!-- Only apply these patches if the erotic trader mod is present -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>RJW Ero Traders</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+
+        <!-- Add ExoticMisc trade tag to BDSM weapons for erotic traders -->
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="BDSM_Paddle"]/tradeTags</xpath>
+          <success>Always</success>
+          <match Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="BDSM_Paddle"]/tradeTags</xpath>
+            <value>
+              <li>ExoticMisc</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="BDSM_Paddle"]</xpath>
+            <value>
+              <tradeTags>
+                <li>ExoticMisc</li>
+              </tradeTags>
+            </value>
+          </nomatch>
+        </li>
+
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="BDSM_LightPaddle"]/tradeTags</xpath>
+          <success>Always</success>
+          <match Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="BDSM_LightPaddle"]/tradeTags</xpath>
+            <value>
+              <li>ExoticMisc</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="BDSM_LightPaddle"]</xpath>
+            <value>
+              <tradeTags>
+                <li>ExoticMisc</li>
+              </tradeTags>
+            </value>
+          </nomatch>
+        </li>
+
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="BDSM_CowCrop"]/tradeTags</xpath>
+          <success>Always</success>
+          <match Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="BDSM_CowCrop"]/tradeTags</xpath>
+            <value>
+              <li>ExoticMisc</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="BDSM_CowCrop"]</xpath>
+            <value>
+              <tradeTags>
+                <li>ExoticMisc</li>
+              </tradeTags>
+            </value>
+          </nomatch>
+        </li>
+
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="BDSM_DollWhip"]/tradeTags</xpath>
+          <success>Always</success>
+          <match Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="BDSM_DollWhip"]/tradeTags</xpath>
+            <value>
+              <li>ExoticMisc</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="BDSM_DollWhip"]</xpath>
+            <value>
+              <tradeTags>
+                <li>ExoticMisc</li>
+              </tradeTags>
+            </value>
+          </nomatch>
+        </li>
+
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="BDSM_Cane"]/tradeTags</xpath>
+          <success>Always</success>
+          <match Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="BDSM_Cane"]/tradeTags</xpath>
+            <value>
+              <li>ExoticMisc</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="BDSM_Cane"]</xpath>
+            <value>
+              <tradeTags>
+                <li>ExoticMisc</li>
+              </tradeTags>
+            </value>
+          </nomatch>
+        </li>
+
+        <!-- Add ExoticMisc trade tag to BDSM apparel for erotic traders -->
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="Apparel_PuppyCollar"]/tradeTags</xpath>
+          <success>Always</success>
+          <match Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="Apparel_PuppyCollar"]/tradeTags</xpath>
+            <value>
+              <li>ExoticMisc</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="Apparel_PuppyCollar"]</xpath>
+            <value>
+              <tradeTags>
+                <li>ExoticMisc</li>
+              </tradeTags>
+            </value>
+          </nomatch>
+        </li>
+
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="Apparel_kittyCollar"]/tradeTags</xpath>
+          <success>Always</success>
+          <match Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="Apparel_kittyCollar"]/tradeTags</xpath>
+            <value>
+              <li>ExoticMisc</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="Apparel_kittyCollar"]</xpath>
+            <value>
+              <tradeTags>
+                <li>ExoticMisc</li>
+              </tradeTags>
+            </value>
+          </nomatch>
+        </li>
+
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="Apparel_cowCollar"]/tradeTags</xpath>
+          <success>Always</success>
+          <match Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="Apparel_cowCollar"]/tradeTags</xpath>
+            <value>
+              <li>ExoticMisc</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="Apparel_cowCollar"]</xpath>
+            <value>
+              <tradeTags>
+                <li>ExoticMisc</li>
+              </tradeTags>
+            </value>
+          </nomatch>
+        </li>
+
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="Apparel_dollcollar"]/tradeTags</xpath>
+          <success>Always</success>
+          <match Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="Apparel_dollcollar"]/tradeTags</xpath>
+            <value>
+              <li>ExoticMisc</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="Apparel_dollcollar"]</xpath>
+            <value>
+              <tradeTags>
+                <li>ExoticMisc</li>
+              </tradeTags>
+            </value>
+          </nomatch>
+        </li>
+
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="Apparel_katears"]/tradeTags</xpath>
+          <success>Always</success>
+          <match Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="Apparel_katears"]/tradeTags</xpath>
+            <value>
+              <li>ExoticMisc</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="Apparel_katears"]/tradeTags</xpath>
+            <value>
+              <tradeTags>
+                <li>ExoticMisc</li>
+              </tradeTags>
+            </value>
+          </nomatch>
+        </li>
+
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="Apparel_DogMask"]/tradeTags</xpath>
+          <success>Always</success>
+          <match Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="Apparel_DogMask"]/tradeTags</xpath>
+            <value>
+              <li>ExoticMisc</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="Apparel_DogMask"]</xpath>
+            <value>
+              <tradeTags>
+                <li>ExoticMisc</li>
+              </tradeTags>
+            </value>
+          </nomatch>
+        </li>
+
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="Apparel_DogMaskF"]/tradeTags</xpath>
+          <success>Always</success>
+          <match Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="Apparel_DogMaskF"]/tradeTags</xpath>
+            <value>
+              <li>ExoticMisc</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="Apparel_DogMaskF"]</xpath>
+            <value>
+              <tradeTags>
+                <li>ExoticMisc</li>
+              </tradeTags>
+            </value>
+          </nomatch>
+        </li>
+
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="Apparel_DollMask"]/tradeTags</xpath>
+          <success>Always</success>
+          <match Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="Apparel_DollMask"]/tradeTags</xpath>
+            <value>
+              <li>ExoticMisc</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="Apparel_DollMask"]</xpath>
+            <value>
+              <tradeTags>
+                <li>ExoticMisc</li>
+              </tradeTags>
+            </value>
+          </nomatch>
+        </li>
+
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="Apparel_cowears"]/tradeTags</xpath>
+          <success>Always</success>
+          <match Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="Apparel_cowears"]/tradeTags</xpath>
+            <value>
+              <li>ExoticMisc</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="Apparel_cowears"]/tradeTags</xpath>
+            <value>
+              <tradeTags>
+                <li>ExoticMisc</li>
+              </tradeTags>
+            </value>
+          </nomatch>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
