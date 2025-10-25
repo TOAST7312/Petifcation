@@ -5,6 +5,9 @@
     <defName>Apparel_katears</defName>
     <label>cat ears</label>
     <description>A decorative headpiece designed to enhance the wearer's feline identity. The cat ears reinforce 'kitty' training and pet status through humiliation and roleplay.</description>
+    <descriptionHyperlinks>
+      <HediffDef>Cat_WikiEntry</HediffDef>
+    </descriptionHyperlinks>
     <possessionCount>1</possessionCount>
     <graphicData>
       <texPath>Apparel/Cat/CatEars/CatEarHat_north</texPath>
@@ -145,6 +148,9 @@
     <defName>Apparel_DogMask</defName>
     <label>dog mask</label>
     <description>A flexible latex mask designed to transform the wearer into a canine appearance. The mask reinforces 'puppy' training and pet identity through humiliation and objectification.</description>
+    <descriptionHyperlinks>
+      <HediffDef>Dog_WikiEntry</HediffDef>
+    </descriptionHyperlinks>
     <possessionCount>1</possessionCount>
     <graphicData>
       <texPath>Apparel/Dog/DogMask/DogMask_east</texPath>
@@ -211,6 +217,9 @@
     <defName>Apparel_DogMaskF</defName>
     <label>dog mask F</label>
     <description>A flexible latex mask designed to transform the wearer into a canine appearance. The mask reinforces puppy training and pet identity through humiliation and objectification.</description>
+    <descriptionHyperlinks>
+      <HediffDef>Dog_WikiEntry</HediffDef>
+    </descriptionHyperlinks>
     <possessionCount>1</possessionCount>
     <graphicData>
       <texPath>Apparel/Dog/DogMaskF/DogMaskF_east</texPath>
@@ -373,6 +382,9 @@
     <defName>Apparel_DollMask</defName>
     <label>doll mask</label>
     <description>A restrictive latex mask with an integrated feeding tube. Designed to reinforce 'doll' training and objectify the wearer, forcing them to eat and breathe through the tube like a doll.</description>
+    <descriptionHyperlinks>
+      <HediffDef>Doll_WikiEntry</HediffDef>
+    </descriptionHyperlinks>
     <possessionCount>1</possessionCount>
     <graphicData>
       <texPath>Apparel/Doll/DollMask/DollMask_south</texPath>
@@ -423,7 +435,7 @@
         <li>IndustrialBasic</li>
       </tags>
     </apparel>
-        <comps>
+    <comps>
       <li Class="CompProperties_CauseHediff_Apparel">
         <hediff>dollymasked</hediff>
         <part>Head</part>
@@ -431,7 +443,7 @@
     </comps>
   </ThingDef>
 
-    <HediffDef>
+  <HediffDef>
     <defName>dollymasked</defName>
     <label>mask and feeding tube</label>
     <description>The mask and feeding tube further remove the doll form their consciousness. May eventually cause a permanent shift in personality.</description>
@@ -443,7 +455,7 @@
           <Vulnerability>0.1</Vulnerability>
           <Beauty>1</Beauty>
         </statOffsets>
-          <capMods>
+        <capMods>
           <li>
             <capacity>Sight</capacity>
             <setMax>0</setMax>
@@ -539,6 +551,9 @@
     <defName>Apparel_cowears</defName>
     <label>cow ears</label>
     <description>A decorative headpiece designed to enhance the wearer's bovine identity. The cow ears reinforce 'cow' training and livestock status through humiliation and objectification.</description>
+    <descriptionHyperlinks>
+      <HediffDef>Cow_WikiEntry</HediffDef>
+    </descriptionHyperlinks>
     <possessionCount>1</possessionCount>
     <graphicData>
       <texPath>Apparel/Cow/CowEars/CowEars_north</texPath>
@@ -566,7 +581,7 @@
         <li>None</li>
       </renderSkipFlags>
     </apparel>
-        <comps>
+    <comps>
       <li Class="CompProperties_CauseHediff_Apparel">
         <hediff>cowears</hediff>
         <part>Head</part>
@@ -577,12 +592,12 @@
     </tradeTags>
     <recipeMaker>
       <researchPrerequisites>
-          <li>PRCow</li>
+        <li>PRCow</li>
       </researchPrerequisites>
     </recipeMaker>
   </ThingDef>
 
-    <HediffDef>
+  <HediffDef>
     <defName>cowears</defName>
     <label>cow ears</label>
     <description>The cow ears reinforce 'cow' training and livestock identity through continuous humiliation. The aesthetic modification may lead to permanent psychological restructuring.</description>
@@ -596,13 +611,13 @@
       </li>
     </stages>
     <comps>
-        <li Class="EBSGFramework.HediffCompProperties_GiveOtherHediffPeriodically">
-                <hediff>pet_cow</hediff>
-                <severity>0.01</severity>
-                <validSeverities>0.5</validSeverities>
-                <multiplySeverityByParentSeverity>False</multiplySeverityByParentSeverity>
-                <interval>18000</interval>
-        </li>
+      <li Class="EBSGFramework.HediffCompProperties_GiveOtherHediffPeriodically">
+        <hediff>pet_cow</hediff>
+        <severity>0.01</severity>
+        <validSeverities>0.5</validSeverities>
+        <multiplySeverityByParentSeverity>False</multiplySeverityByParentSeverity>
+        <interval>18000</interval>
+      </li>
       <li Class="HediffCompProperties_RemoveIfApparelDropped" />
     </comps>
     <isBad>false</isBad>

@@ -171,6 +171,7 @@
     <label>kitty reinforcement implant</label>
     <description>A sophisticated neural implant designed to reinforce kitty training behaviors. It enhances sensory pleasure responses and reduces social inhibitions, encouraging the graceful and playful behavior patterns of trained kitties.</description>
     <descriptionHyperlinks>
+      <HediffDef>Cat_WikiEntry</HediffDef>
       <RecipeDef>InstallPetReinforcementKittyBrain</RecipeDef>
     </descriptionHyperlinks>
     <costList>
@@ -235,6 +236,7 @@
     <labelNoun>a cow reinforcement implant</labelNoun>
     <description>An advanced torso implant that reinforces cow training by enhancing productivity hormones and reducing mental resistance. It promotes docile, productive behavior patterns suitable for trained cows.</description>
     <descriptionHyperlinks>
+      <HediffDef>Cow_WikiEntry</HediffDef>
       <ThingDef>PetReinforcementCowTorso</ThingDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>PetReinforcementCowTorso</spawnThingOnRemoved>
@@ -348,6 +350,7 @@
     <labelNoun>a doll reinforcement implant</labelNoun>
     <description>An advanced neural implant that reinforces doll training by suppressing higher brain functions and enhancing pain tolerance. It creates the empty, compliant mental state required for perfect doll behavior.</description>
     <descriptionHyperlinks>
+      <HediffDef>Doll_WikiEntry</HediffDef>
       <ThingDef>PetReinforcementDollBrain</ThingDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>PetReinforcementDollBrain</spawnThingOnRemoved>

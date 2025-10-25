@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <HediffDef>
+        <defName>Cow_WikiEntry</defName>
+        <label>Cow (Info)</label>
+        <description><![CDATA[<b>Disabled Mental States</b>
+• Mental Breaks
+• Inspirations
+
+<b>Disabled Needs</b>
+• Comfort
+• Beauty
+
+<b>Disabled Work Types</b>
+• Intellectual — Research, Scanning (Ground Penetrating & Long-Range)  
+• Manual Skilled — Crafting, Smithing, Tailoring, Artistic, Construction
+• Violent
+
+<b>Stat Offsets</b>
+• Pain Factor  x0.8  
+• Opinion of Others  x8
+• Max Temperature  +12°C  
+• Min Temperature  -12°C  
+• Vulnerability  +100%  
+• Sex Frequency  +100%  
+• Milk Production x2 (with akaster.equalmilking mod)
+• Consciousness  max 0.9  
+• Talking  x0.4]]></description>
+
+        <descriptionHyperlinks>
+            <HediffDef>Petification_WikiEntry</HediffDef>
+        </descriptionHyperlinks>
+        <isBad>false</isBad>
+        <tendable>false</tendable>
+        <stages />
+    </HediffDef>
+</Defs>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <HediffDef>
+        <defName>Doll_WikiEntry</defName>
+        <label>Doll (Info)</label>
+        <description><![CDATA[<b>Disabled Mental States</b>
+• Mental Breaks
+• Inspirations
+
+<b>Disabled Needs</b>
+• Comfort
+• Beauty
+• Outdoors
+
+<b>Disabled Work Types</b>
+• Intellectual — Research, Scanning (Ground Penetrating & Long-Range)  
+• Manual Skilled — Crafting, Smithing, Tailoring, Artistic, Construction
+• Violent
+
+<b>Stat Offsets</b>
+• Pain Factor  x0.3 
+• Opinion of Others  x0  
+• Max Temperature  +18°C  
+• Min Temperature  -18°C  
+• Vulnerability  +300%  
+• Sex Frequency  +80%
+• Consciousness  max 0.6  
+• Talking  x0.2]]></description>
+
+        <descriptionHyperlinks>
+            <HediffDef>Petification_WikiEntry</HediffDef>
+        </descriptionHyperlinks>
+        <isBad>false</isBad>
+        <tendable>false</tendable>
+        <stages />
+    </HediffDef>
+</Defs>
