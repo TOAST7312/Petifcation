@@ -48,9 +48,9 @@
         <hediff>pet_doggy</hediff>
         <severity>0.001</severity>
         <validSeverities>0.5</validSeverities>
-                <multiplySeverityByParentSeverity>False</multiplySeverityByParentSeverity>
-                <interval>30000</interval>
-        </li>
+        <multiplySeverityByParentSeverity>False</multiplySeverityByParentSeverity>
+        <interval>30000</interval>
+      </li>
     </comps>
     <injuryProps>
       <painPerSeverity>0.0025</painPerSeverity>
@@ -156,20 +156,20 @@
     <label>light lash</label>
     <labelNoun>a lash welt</labelNoun>
     <description>A welt left from corporal punishment with a riding crop.</description>
-      <displayWound>false</displayWound>
+    <displayWound>false</displayWound>
     <comps>
       <li Class="HediffCompProperties_TendDuration">
         <labelTendedWell>kissed better</labelTendedWell>
         <labelTendedWellInner>kissed better</labelTendedWellInner>
         <labelSolidTendedWell>kissed better</labelSolidTendedWell>
       </li>
-        <li Class="EBSGFramework.HediffCompProperties_GiveOtherHediffPeriodically">
-                <hediff>pet_cow</hediff>
-                <severity>0.001</severity>
-                <validSeverities>0.5</validSeverities>
-                <multiplySeverityByParentSeverity>False</multiplySeverityByParentSeverity>
-                <interval>30000</interval>
-        </li>
+      <li Class="EBSGFramework.HediffCompProperties_GiveOtherHediffPeriodically">
+        <hediff>pet_cow</hediff>
+        <severity>0.001</severity>
+        <validSeverities>0.5</validSeverities>
+        <multiplySeverityByParentSeverity>False</multiplySeverityByParentSeverity>
+        <interval>30000</interval>
+      </li>
     </comps>
     <injuryProps>
       <painPerSeverity>0.03</painPerSeverity>
@@ -215,7 +215,7 @@
     <label>whip mark</label>
     <labelNoun>a whip mark</labelNoun>
     <description>A scratch or tear left by a whip.</description>
-      <displayWound>false</displayWound>
+    <displayWound>false</displayWound>
     <comps>
       <li Class="HediffCompProperties_TendDuration">
         <labelTendedWell>bandaged</labelTendedWell>
@@ -228,13 +228,13 @@
       <li Class="HediffCompProperties_GetsPermanent">
         <permanentLabel>whip scar</permanentLabel>
       </li>
-        <li Class="EBSGFramework.HediffCompProperties_GiveOtherHediffPeriodically">
-                <hediff>pet_doll</hediff>
-                <severity>0.001</severity>
-                <validSeverities>0.5</validSeverities>
-                <multiplySeverityByParentSeverity>False</multiplySeverityByParentSeverity>
-                <interval>30000</interval>
-        </li>
+      <li Class="EBSGFramework.HediffCompProperties_GiveOtherHediffPeriodically">
+        <hediff>pet_doll</hediff>
+        <severity>0.001</severity>
+        <validSeverities>0.5</validSeverities>
+        <multiplySeverityByParentSeverity>False</multiplySeverityByParentSeverity>
+        <interval>30000</interval>
+      </li>
     </comps>
     <injuryProps>
       <painPerSeverity>0.0155</painPerSeverity>

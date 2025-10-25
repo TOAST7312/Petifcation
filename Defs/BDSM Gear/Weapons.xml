@@ -5,6 +5,9 @@
     <defName>BDSM_Paddle</defName>
     <label>paddle</label>
     <description>A wooden paddle designed for corporal punishment. Its use reinforces 'puppy' training through physical discipline and conditioning.</description>
+    <descriptionHyperlinks>
+      <HediffDef>Dog_WikiEntry</HediffDef>
+    </descriptionHyperlinks>
     <graphicData>
       <texPath>Weapons/Paddle</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -49,10 +52,13 @@
     </tools>
   </ThingDef>
 
-      <ThingDef ParentName="BaseMeleeWeapon_Blunt">
+  <ThingDef ParentName="BaseMeleeWeapon_Blunt">
     <defName>BDSM_LightPaddle</defName>
     <label>light paddle</label>
     <description>A lightweight paddle with a cushioned surface for gentler discipline. Designed for 'kitty' training and conditioning through controlled punishment.</description>
+    <descriptionHyperlinks>
+      <HediffDef>Cat_WikiEntry</HediffDef>
+    </descriptionHyperlinks>
     <graphicData>
       <texPath>Weapons/LightPaddle</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -97,10 +103,13 @@
     </tools>
   </ThingDef>
 
-      <ThingDef ParentName="BaseMeleeWeapon_Blunt">
+  <ThingDef ParentName="BaseMeleeWeapon_Blunt">
     <defName>BDSM_CowCrop</defName>
     <label>riding crop</label>
     <description>A flexible riding crop designed for corporal discipline. Its sting reinforces 'cow' training through sharp, precise punishment.</description>
+    <descriptionHyperlinks>
+      <HediffDef>Cow_WikiEntry</HediffDef>
+    </descriptionHyperlinks>
     <graphicData>
       <texPath>Weapons/Crop</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -145,10 +154,13 @@
     </tools>
   </ThingDef>
 
-      <ThingDef ParentName="BaseMeleeWeapon_Blunt">
+  <ThingDef ParentName="BaseMeleeWeapon_Blunt">
     <defName>BDSM_DollWhip</defName>
     <label>whip</label>
     <description>A multi-stranded whip designed for intense corporal punishment. Its use reinforces 'doll' training through sharp, stinging discipline.</description>
+    <descriptionHyperlinks>
+      <HediffDef>Doll_WikiEntry</HediffDef>
+    </descriptionHyperlinks>
     <graphicData>
       <texPath>Weapons/Whip</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -193,10 +205,13 @@
     </tools>
   </ThingDef>
 
-      <ThingDef ParentName="BaseMeleeWeapon_Blunt">
+  <ThingDef ParentName="BaseMeleeWeapon_Blunt">
     <defName>BDSM_Cane</defName>
     <label>cane</label>
     <description>A rigid cane designed for harsh corporal punishment. Its use reinforces 'doll' training through intense, focused discipline.</description>
+    <descriptionHyperlinks>
+      <HediffDef>Doll_WikiEntry</HediffDef>
+    </descriptionHyperlinks>
     <graphicData>
       <texPath>Weapons/Cane</texPath>
       <graphicClass>Graphic_Single</graphicClass>

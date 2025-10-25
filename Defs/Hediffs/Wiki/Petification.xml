@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <HediffDef>
+        <defName>Petification_WikiEntry</defName>
+        <label>Petification (Info)</label>
+        <description><![CDATA[Pawns can currently be turned into 4 possible Pets
+        
+        To turn a Pawn into a Pet, the Pawn needs to undergo training.
+        This is done by forcing the Pawn to wear Pet-Apparel, eat Pet-Food or hit the Pawn with the designated training weapon.
+        
+        Note: Turning a pawn into a pet can be long process, so expect multiple ingame days depending on how much training equipment you use.
+        Also, most Pawns will rebell against the training, so be prepared for low moods and mental breaks.]]></description>
+        <descriptionHyperlinks>
+            <HediffDef>Dog_WikiEntry</HediffDef>
+            <HediffDef>Cat_WikiEntry</HediffDef>
+            <HediffDef>Cow_WikiEntry</HediffDef>
+            <HediffDef>Doll_WikiEntry</HediffDef>
+        </descriptionHyperlinks>
+        <isBad>false</isBad>
+        <tendable>false</tendable>
+        <stages />
+    </HediffDef>
+</Defs>

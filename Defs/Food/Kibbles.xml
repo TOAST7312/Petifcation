@@ -5,6 +5,9 @@
     <defName>KibbleP</defName>
     <label>Dog Food</label>
     <description>Specialized nutrition pellets formulated from mixed protein and vegetable sources. Designed for 'puppy' training and behavioral conditioning protocols. While technically edible by humans, it is unpalatable and psychologically degrading.</description>
+    <descriptionHyperlinks>
+      <HediffDef>Dog_WikiEntry</HediffDef>
+    </descriptionHyperlinks>
     <thingCategories>
       <li>Foods</li>
     </thingCategories>
@@ -26,13 +29,13 @@
       <optimalityOffsetFeedingAnimals>-100</optimalityOffsetFeedingAnimals>
       <ingestEffect>EatVegetarian</ingestEffect>
       <ingestSound>RawVegetable_Eat</ingestSound>
-    <outcomeDoers>
-      <li Class="IngestionOutcomeDoer_GiveHediff">
-        <hediffDef>pet_doggy</hediffDef>
-        <severity>0.01</severity>
-        <divideByBodySize>true</divideByBodySize>
-      </li>
-    </outcomeDoers>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>pet_doggy</hediffDef>
+          <severity>0.01</severity>
+          <divideByBodySize>true</divideByBodySize>
+        </li>
+      </outcomeDoers>
     </ingestible>
     <comps>
       <li Class="CompProperties_Ingredients">
@@ -48,6 +51,9 @@
     <defName>KibbleK</defName>
     <label>Cat Food</label>
     <description>Specialized nutrition pellets formulated from mixed protein and vegetable sources. Designed for 'kitty' training and behavioral conditioning protocols. While technically edible by humans, it is unpalatable and psychologically degrading.</description>
+    <descriptionHyperlinks>
+      <HediffDef>Cat_WikiEntry</HediffDef>
+    </descriptionHyperlinks>
     <thingCategories>
       <li>Foods</li>
     </thingCategories>
@@ -69,13 +75,13 @@
       <optimalityOffsetFeedingAnimals>-100</optimalityOffsetFeedingAnimals>
       <ingestEffect>EatVegetarian</ingestEffect>
       <ingestSound>RawVegetable_Eat</ingestSound>
-    <outcomeDoers>
-    	  <li Class="IngestionOutcomeDoer_GiveHediff">
-						<hediffDef>pet_kitty</hediffDef>
-						<severity>0.01</severity>
-						<divideByBodySize>true</divideByBodySize>
-	   </li>
-    </outcomeDoers>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>pet_kitty</hediffDef>
+          <severity>0.01</severity>
+          <divideByBodySize>true</divideByBodySize>
+        </li>
+      </outcomeDoers>
     </ingestible>
     <comps>
       <li Class="CompProperties_Ingredients">
@@ -90,6 +96,9 @@
     <defName>KibbleC</defName>
     <label>Nutrient Hay</label>
     <description>Nutrient-enhanced forage supplement infused with protein and mineral additives. Despite the nutritional improvements, it retains the taste and texture of basic hay. Designed for 'cow' training and behavioral conditioning protocols.</description>
+    <descriptionHyperlinks>
+      <HediffDef>Cow_WikiEntry</HediffDef>
+    </descriptionHyperlinks>
     <thingCategories>
       <li>Foods</li>
     </thingCategories>
@@ -112,13 +121,13 @@
       <optimalityOffsetFeedingAnimals>-100</optimalityOffsetFeedingAnimals>
       <ingestEffect>EatVegetarian</ingestEffect>
       <ingestSound>RawVegetable_Eat</ingestSound>
-    <outcomeDoers>
-    	  <li Class="IngestionOutcomeDoer_GiveHediff">
-						<hediffDef>pet_cow</hediffDef>
-						<severity>0.01</severity>
-						<divideByBodySize>true</divideByBodySize>
-	   </li>
-    </outcomeDoers>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>pet_cow</hediffDef>
+          <severity>0.01</severity>
+          <divideByBodySize>true</divideByBodySize>
+        </li>
+      </outcomeDoers>
     </ingestible>
     <comps>
       <li Class="CompProperties_Ingredients">
@@ -187,12 +196,12 @@
       </disallowedThingDefs>
     </defaultIngredientFilter>
     <workSkill>Cooking</workSkill>
-      <researchPrerequisites>
-          <li>PRPuppy</li>
-      </researchPrerequisites>
-      <recipeUsers Inherit="False">
-        <li>TableButcher</li>
-      </recipeUsers>
+    <researchPrerequisites>
+      <li>PRPuppy</li>
+    </researchPrerequisites>
+    <recipeUsers Inherit="False">
+      <li>TableButcher</li>
+    </recipeUsers>
   </RecipeDef>
 
   <RecipeDef>
@@ -253,12 +262,12 @@
       </disallowedThingDefs>
     </defaultIngredientFilter>
     <workSkill>Cooking</workSkill>
-      <researchPrerequisites>
-          <li>PRKitten</li>
-      </researchPrerequisites>
-      <recipeUsers Inherit="False">
-        <li>TableButcher</li>
-      </recipeUsers>
+    <researchPrerequisites>
+      <li>PRKitten</li>
+    </researchPrerequisites>
+    <recipeUsers Inherit="False">
+      <li>TableButcher</li>
+    </recipeUsers>
   </RecipeDef>
 
   <RecipeDef>
@@ -316,11 +325,11 @@
       </disallowedThingDefs>
     </defaultIngredientFilter>
     <workSkill>Cooking</workSkill>
-      <researchPrerequisites>
-          <li>PRCow</li>
-      </researchPrerequisites>
-      <recipeUsers Inherit="False">
-        <li>TableButcher</li>
-      </recipeUsers>
+    <researchPrerequisites>
+      <li>PRCow</li>
+    </researchPrerequisites>
+    <recipeUsers Inherit="False">
+      <li>TableButcher</li>
+    </recipeUsers>
   </RecipeDef>
 </Defs>
